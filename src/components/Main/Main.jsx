@@ -2,15 +2,17 @@ import React from 'react';
 
 import './Main.css';
 
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+import Navigation from '../Navigation/Navigation';
 
 function Main() {
   return (
-    <main>
-      <Header />
-      <Footer />
-    </main>
+    <>
+      <main className="main">
+        <div className="main__container">
+          {/* <Navigation /> */}
+        </div>
+      </main>
+    </>
   );
 }
 

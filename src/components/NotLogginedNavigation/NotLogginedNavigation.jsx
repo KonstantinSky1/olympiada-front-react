@@ -8,13 +8,13 @@ function NotLogginedNavigation() {
     <div className="notLogginedNavigation">
       <Link
         className="notLogginedNavigation-login-link"
-        to="/"
+        to="signin"
       >
         Вход
       </Link>
       <Link
         className="notLogginedNavigation-register-link"
-        to="/"
+        to="signup"
       >
         Регистрация
       </Link>

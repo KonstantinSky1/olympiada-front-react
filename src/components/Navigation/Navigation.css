@@ -1,0 +1,18 @@
+.navigation {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+  width: 226px;
+}
+
+.navigation__list-item-NavLink {
+  margin: 0 0 12px 0;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.navigation__list-item {
+  margin: 0 0 12px 0;
+}
