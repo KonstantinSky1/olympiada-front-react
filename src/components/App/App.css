@@ -1,0 +1,15 @@
+.root {
+  background-color: #F2F9FF;;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*Сглаживание*/
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /*Подгонка размера текста*/
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

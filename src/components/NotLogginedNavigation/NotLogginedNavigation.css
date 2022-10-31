@@ -1,0 +1,28 @@
+.notLogginedNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0 10px;
+}
+
+.notLogginedNavigation-login-link {
+  margin: 0 26px 0 0;
+  display: block;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.notLogginedNavigation-register-link {
+  display: block;
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 48px;
+  width: 168px;
+  height: 48px;
+  text-align: center;
+}
