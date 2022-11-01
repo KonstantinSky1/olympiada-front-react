@@ -1,0 +1,54 @@
+.olympiad-register__card {
+  background: #FAFAFA;
+  border: 1px solid #4A69FF;
+  border-radius: 10px;
+  width: 235px;
+  height: 180px;
+  padding: 12px 10px 12px 12px;
+}
+
+.olympiad-register__card-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 0 15px 0;
+}
+
+.olympiad-register__card-text {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 12px 0;
+}
+
+.olympiad-card-date::before {
+  content: '';
+  background: url('../../images/icon-calendar-olymp.svg') no-repeat;
+  width: 25px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: -5px;
+  margin: 0 5px 0 0;
+}
+
+.olympiad-card-people::before {
+  content: '';
+  background: url('../../images/icon-people-olymp.svg') no-repeat;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: -7px;
+  margin: 0 5px 0 0;
+}
+
+.olympiad-register__card-button {
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4A69FF;
+  width: 148px;
+  height: 38px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #4A69FF;
+  border-radius: 10px;
+}

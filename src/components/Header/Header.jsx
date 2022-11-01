@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Header.css';
 
@@ -29,9 +30,7 @@ function Header() {
         <div className="header__bottom">
           <div className="header__container">
             <div className="header__bottom-content">
-              <p className="header__bottom-title">
-                SMARTEST
-              </p>
+              <Link to="/" className="header__bottom-title">SMARTEST</Link>
               <form name="search" className="search-form">
                 <input type="text" className="search-form__input" placeholder="Поиск" />
                 <button type="submit" className="search-form__button"></button>

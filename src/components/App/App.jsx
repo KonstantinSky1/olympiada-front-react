@@ -1,13 +1,14 @@
 import React from "react";
-import { Route, Routes, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css';
 
-import Main from '../Main/Main';
+// import PageWrapper from '../PageWrapper/PageWrapper';
 import Register from '../Register/Register';
 
 import Root from '../Root/Root';
-import Admin from '../Admin/Admin';
+import Main from '../Main/Main';
+// import Admin from '../Admin/Admin';
 
 function App() {
   const routes = [
@@ -20,17 +21,21 @@ function App() {
           element: <Register />,
         },
         {
-          index: true,
+          path: "/",
           element: <Main />
-        },
+        }
+        // {
+        //   index: true,
+        //   element: <PageWrapper />
+        // },
 
       ],
     },
-    {
-      path: '/admin',
-      element: <Admin />,
+    // {
+    //   path: '/admin',
+    //   element: <Admin />,
 
-    }
+    // }
   ];
 
   const router = createBrowserRouter(routes);

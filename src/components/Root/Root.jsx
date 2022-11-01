@@ -1,17 +1,17 @@
 import React from "react";
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
 
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Navigation from '../Navigation/Navigation';
+import PageWrapper from '../PageWrapper/PageWrapper';
 
 function Root() {
   return (
     <>
-    <Header />
-    <Navigation />
-    <Outlet />
-    <Footer />
+      <Header />
+      <PageWrapper />
+      {/* <Outlet /> */}
+      <Footer />
     </>
   );
 }
