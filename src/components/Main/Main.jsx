@@ -6,11 +6,13 @@ import './Main.css';
 import mainAdvertsPic1 from '../../images/putevka.png';
 
 import OpenToPlay from '../OpenToPlay/OpenToPlay';
+import AllNewsMain from '../AllNewsMain/AllNewsMain';
+import SeasonWinners from '../SeasonWinners/SeasonWinners';
 
 function Main() {
 return (
   <div className="main">
-    <div className="main__adverts">
+    <section className="main__adverts">
       <div className="main__adverts-image-block">
         <img src={mainAdvertsPic1} alt="Картинка" className="main__adverts-image"/>
       </div>
@@ -18,9 +20,10 @@ return (
         <Link to="/" className="button-participate">Участвовать</Link>
         <Link to="/" className="button-details">Подробнее</Link>
       </div>
-    </div>
+    </section>
     <OpenToPlay />
-    
+    <AllNewsMain />
+    <SeasonWinners />
   </div>
 );
 }

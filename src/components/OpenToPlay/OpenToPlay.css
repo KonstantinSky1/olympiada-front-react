@@ -30,6 +30,10 @@
   background-color: transparent;
 }
 
+.olympiad-register__navigation-item:hover {
+  opacity: .5;
+}
+
 .olympiad-register__navigation-item_active {
   color: #181716;
   border-bottom: 3px solid #4A69FF;

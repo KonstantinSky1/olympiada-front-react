@@ -65,3 +65,7 @@
 .footer__list-links-item-link {
   color: #FFFFFF;
 }
+
+.footer__list-links-item-link:hover {
+  opacity: .5;
+}

@@ -8,3 +8,7 @@
   color: #FFFFFF;
   display: block;
 }
+
+.buttonHelpPsych:hover {
+  opacity: .5;
+}

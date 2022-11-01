@@ -16,7 +16,7 @@ function OpenToPlay() {
   }
 
   return (
-    <div className="olympiad-register">
+    <section className="olympiad-register">
       <h4 className="olympiad-register__navigation-title">Олимпиады</h4>
       <div className="olympiad-register__navigation">
         <div className="olympiad-register__navigation-block">
@@ -34,7 +34,7 @@ function OpenToPlay() {
         <OlympiadRegisterCard />
         <OlympiadRegisterCard />
       </ul>
-    </div>
+    </section>
   );
 }
 

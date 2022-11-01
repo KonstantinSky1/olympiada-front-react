@@ -1,0 +1,33 @@
+.seasonWinners__list-item {
+  width: 155px;
+  min-height: 285px;
+  display: flex;
+  flex-direction: column;
+}
+
+.seasonWinners__list-item-image-block {
+  flex: 0 0 155px;
+  width: 155px;
+  height: 170px;
+  margin: 0 0 14px 0;
+}
+
+.seasonWinners__list-item-image-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 12px;
+}
+
+.seasonWinners__list-item-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0 0 14px 0;
+}
+
+.seasonWinners__list-item-text {
+  font-size: 14px;
+  line-height: 24px;
+}

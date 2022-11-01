@@ -33,7 +33,6 @@
 
 .button-participate {
   display: block;
-
   font-size: 16px;
   line-height: 40px;
   color: #FFFFFF;
@@ -42,6 +41,10 @@
   width: 132px;
   height: 40px;
   text-align: center;
+}
+
+.button-participate:hover {
+  opacity: .5;
 }
 
 .button-details {
@@ -54,4 +57,8 @@
   width: 132px;
   height: 40px;
   text-align: center;
+}
+
+.button-details:hover {
+  opacity: .5;
 }

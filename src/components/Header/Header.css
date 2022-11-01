@@ -35,6 +35,10 @@
   border: none;
 }
 
+.header__top-lang-select:hover {
+  opacity: .5;
+}
+
 .header__bottom-title {
   font-weight: 800;
   font-size: 24px;

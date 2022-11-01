@@ -3,7 +3,7 @@
   border: 1px solid #4A69FF;
   border-radius: 10px;
   width: 235px;
-  height: 180px;
+  min-height: 180px;
   padding: 12px 10px 12px 12px;
 }
 
@@ -51,4 +51,8 @@
   margin: 0 auto;
   border: 1px solid #4A69FF;
   border-radius: 10px;
+}
+
+.olympiad-register__card-button:hover {
+  opacity: .5;
 }

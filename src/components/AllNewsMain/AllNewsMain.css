@@ -1,0 +1,36 @@
+.allNewsMain {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.allNewsMain__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.allNewsMain__header-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.allNewsMain__header-show-all {
+  font-size: 16px;
+  line-height: 24px;
+  color: #9C9C9C;
+  background-color: transparent;
+}
+
+.allNewsMain__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.allNewsMain__header-show-all:hover {
+  opacity: .5;
+}

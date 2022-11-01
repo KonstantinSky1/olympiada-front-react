@@ -14,6 +14,10 @@
   line-height: 24px;
 }
 
+.notLogginedNavigation-login-link:hover {
+  opacity: .5;
+}
+
 .notLogginedNavigation-register-link {
   display: block;
   border: 2px solid #FFFFFF;
@@ -25,4 +29,8 @@
   width: 168px;
   height: 48px;
   text-align: center;
+}
+
+.notLogginedNavigation-register-link:hover {
+  opacity: .5;
 }
