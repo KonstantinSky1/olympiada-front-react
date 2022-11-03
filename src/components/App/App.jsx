@@ -5,7 +5,7 @@ import './App.css';
 
 // import PageWrapper from '../PageWrapper/PageWrapper';
 import Register from '../Register/Register';
-
+import Login from '../Login/Login';
 import Root from '../Root/Root';
 import Main from '../Main/Main';
 // import Admin from '../Admin/Admin';
@@ -19,6 +19,10 @@ function App() {
         {
           path: "signup",
           element: <Register />,
+        },
+        {
+          path: "signin",
+          element: <Login />,
         },
         {
           path: "/",

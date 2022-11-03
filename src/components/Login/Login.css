@@ -1,0 +1,126 @@
+.login {
+  padding: 20px 20px 20px 20px;
+}
+
+.login__container {
+  width: 712px;
+  background-color: #FFFFFF;
+  border: 1px solid #4A69FF;
+  padding: 40px 0 40px 0;
+  border-radius: 20px;
+}
+
+.login__content {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.login__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 34px;
+  margin: 0 0 20px 0;
+}
+
+.login__text {
+  max-width: 360px;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 25px 0;
+}
+
+.login__form-inputs-block {
+  margin: 0 0 25px 0;
+}
+
+.login__form-label {
+  display: block;
+  margin: 0 0 8px 0;
+}
+
+.login__form-label-text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.login__form-input {
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #9A9A98;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 10px 0 20px;
+  width: 100%;
+  display: block;
+}
+
+.login__form-input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #9A9A98;
+}
+
+.forgotten-password {
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+  margin: 0 0 25px 0;
+  display: block;
+}
+
+.forgotten-password:hover {
+  opacity: .5;
+}
+
+.login__button-submit {
+  border-radius: 4px;
+  background-color: #4A69FF;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F5F9FC;
+  padding: 8px 24px;
+
+}
+
+.login__button-submit:hover {
+  opacity: .5;
+}
+
+.border-line {
+  display: block;
+  border-bottom: 1px solid rgba(24, 23, 22, .35);
+  margin: 20px 0 20px 0;
+}
+
+.login__link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.login__link:hover {
+  opacity: .5;
+}
+
+.login__link-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 0 10px;
+}
+
+.login__form-input-password-block {
+  position: relative;
+}
+
+.icon-show-password {
+  position: absolute;
+  background: transparent url('../../images/password-show-hide-icon.svg') no-repeat;
+  border: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+}

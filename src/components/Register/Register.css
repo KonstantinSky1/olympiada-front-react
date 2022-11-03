@@ -79,4 +79,66 @@
 .select-css::-ms-expand { display: none; }
 .select-css option { 
   font-weight:normal;
-} 
+}
+
+.register__button-submit {
+  margin: 0 0 25px 0;
+  border-radius: 4px;
+  background-color: #4A69FF;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F5F9FC;
+  padding: 8px 24px;
+}
+
+.register__button-submit:hover {
+  opacity: .5;
+}
+
+.register__link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.register__link:hover {
+  opacity: .5;
+}
+
+.register__link-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 0 10px;
+}
+
+.register__form-inputs-block {
+  margin: 0 0 25px 0;
+}
+
+.register__offer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 25px 0;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid rgba(24, 23, 22, .35);
+}
+
+.register__offer-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #181716;
+}
+
+.register__offer-link {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.register__offer-link:hover {
+  opacity: .5;
+}

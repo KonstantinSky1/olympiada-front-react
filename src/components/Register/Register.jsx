@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import './Register.css';
 
@@ -36,14 +37,45 @@ function Register() {
                 <input type="text" name="pseudonym" className="register__form-input" placeholder="Придумайте псевдоним" />
               </label>
               <div className="register__form-label">
-              <p className="register__form-label-text">Роль</p>
-                <select class="select-css"> 
-                  <option>Школьник</option> 
-                  <option>Учитель</option> 
-                  <option>Репетитор</option> 
-                  <option>Родитель</option> 
+                <p className="register__form-label-text">Роль</p>
+                <select className="select-css" name="register-select-role">
+                  <option value="schoolboy">Школьник</option>
+                  <option value="teacher">Учитель</option>
+                  <option value="tutor">Репетитор</option>
+                  <option value="parent">Родитель</option>
                 </select>
               </div>
+              <label className="register__form-label">
+                <p className="register__form-label-text">Пароль*</p>
+                <input type="password" name="password" className="register__form-input" placeholder="Придумайте пароль" required />
+              </label>
+              <label className="register__form-label">
+                <p className="register__form-label-text">Повторите пароль*</p>
+                <input type="password" name="repeat-password" className="register__form-input" placeholder="Подтвердить" required />
+              </label>
+              <label className="register__form-label">
+                <p className="register__form-label-text">Дата рождения</p>
+                <input type="date" name="date-birthday" className="register__form-input" />
+              </label>
+            </div>
+            <div className="register__buttons-block">
+              <button
+                type="submit"
+                className="register__button-submit"
+              >
+                Зарегистрироваться
+              </button>
+              <div className="register__offer">
+                <input type="checkbox"  name="offer"/>
+                <p className="register__offer-text">Я согласен с условиями</p>
+                <Link to="#" className="register__offer-link">
+                  Оферты
+                </Link>
+              </div>
+              <Link to="/signin" className="register__link">
+                Уже имеется аккаунт?
+                <span className="register__link-text">Войти</span>
+              </Link>
             </div>
           </form>
         </div>
