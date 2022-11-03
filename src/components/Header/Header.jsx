@@ -7,6 +7,7 @@ import iconMapMarkerImage from '../../images/icon-map-marker.svg';
 import iconPeaceLang from '../../images/icon-peace-lang.svg';
 
 import NotLogginedNavigation from '../NotLogginedNavigation/NotLogginedNavigation';
+import LogginedNavigation from '../LogginedNavigation/LogginedNavigation';
 
 function Header() {
   return (
@@ -35,6 +36,8 @@ function Header() {
                 <input type="text" className="search-form__input" placeholder="Поиск" />
                 <button type="submit" className="search-form__button"></button>
               </form>
+              {/* В зависимости от того залогинен ли пользователь сделать примерно так: { isUserLoggined() ? <LogginedNavigation /> : <NotLogginedNavigation /> } */}
+              <LogginedNavigation />
               <NotLogginedNavigation />
             </div>
           </div>

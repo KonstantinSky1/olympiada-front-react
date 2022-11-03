@@ -1,0 +1,17 @@
+.all-news {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.all-news__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 20px 0;
+}
+
+.all-news__list {
+  margin: 0 0 100px 0;
+}

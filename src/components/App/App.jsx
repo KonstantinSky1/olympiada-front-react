@@ -8,14 +8,20 @@ import Register from '../Register/Register';
 import Login from '../Login/Login';
 import Root from '../Root/Root';
 import Main from '../Main/Main';
+import News from '../News/News';
 // import Admin from '../Admin/Admin';
 
 function App() {
+  // Вынести routes в отдельный файл
   const routes = [
     {
       path: '/',
       element: <Root />,
       children: [
+        {
+          path: "news",
+          element: <News />,
+        },
         {
           path: "signup",
           element: <Register />,

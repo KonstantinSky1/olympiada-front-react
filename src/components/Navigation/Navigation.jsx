@@ -8,9 +8,9 @@ function Navigation() {
     <nav className="navigation">
       <ul className="navigation__list">
         <li className="navigation__list-item">
-          <NavLink className="navigation__list-item-NavLink" to="/" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Главная</NavLink>
+          <NavLink className="navigation__list-item-NavLink" to="/" style={({isActive}) => isActive ? {fontWeight: 700} : undefined} end>Главная</NavLink>
           <ul>
-            <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/1" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Новости</NavLink></li>
+            <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/news" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Новости</NavLink></li>
             <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/2" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Расписание 2022</NavLink></li>
           </ul>
         </li>

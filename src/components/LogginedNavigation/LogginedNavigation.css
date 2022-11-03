@@ -1,0 +1,71 @@
+.loggined-user-action {
+  position: relative;
+}
+
+.loggined-user-menu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transition: .3s;
+  min-width: 180px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.loggined-user-menu.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.loggined-user-profile-image {
+  display: block;
+  background: url('../../images/icon-loggined-user.png') 0 0/48px 48px no-repeat;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  cursor: pointer;
+  /* Позже это убрать: */
+  margin: 0 25px 0 0;
+}
+
+.loggined-user-profile-image:hover {
+  opacity: .5;
+}
+
+.loggined-user-profile-image::after {
+  content: "";
+  display: inline-block;
+  background: url('../../images/icon-loggined-user-dropdown-arrow.svg') no-repeat;
+  width: 11px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  right: -15px;
+}
+
+.loggined-user-menu-item {
+  margin: 0 0 10px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.loggined-user-menu-item:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.loggined-user-menu__link {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.loggined-user-menu__link:hover {
+  opacity: .5;
+}
