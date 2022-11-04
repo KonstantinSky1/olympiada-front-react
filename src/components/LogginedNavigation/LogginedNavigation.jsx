@@ -22,7 +22,7 @@ function LogginedNavigation() {
         <ul className="loggined-user-menu">
           <li className="loggined-user-menu-item">
             <Link
-              to="#"
+              to="personalaccountinfo"
               className="loggined-user-menu__link"
             >
               Личный кабинет

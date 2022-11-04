@@ -9,6 +9,8 @@ import Login from '../Login/Login';
 import Root from '../Root/Root';
 import Main from '../Main/Main';
 import News from '../News/News';
+import PersonalAccountInfo from '../PersonalAccountInfo/PersonalAccountInfo';
+import PersonalAccountAddBalance from '../PersonalAccountAddBalance/PersonalAccountAddBalance';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -18,6 +20,14 @@ function App() {
       path: '/',
       element: <Root />,
       children: [
+        {
+          path: "personalaccountaddballance",
+          element: <PersonalAccountAddBalance />,
+        },
+        {
+          path: "personalaccountinfo",
+          element: <PersonalAccountInfo />,
+        },
         {
           path: "news",
           element: <News />,
