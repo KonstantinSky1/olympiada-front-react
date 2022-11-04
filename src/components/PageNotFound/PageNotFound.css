@@ -1,0 +1,32 @@
+.pageNotFound {
+  background: #FFFFFF;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 500px;
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+.pageNotFound__title {
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 98px;
+  margin: 0 0 20px 0;
+}
+
+.pageNotFound__text {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0 0 20px 0;
+}
+
+.pageNotFound__button {
+  font-size: 16px;
+  line-height: 24px;
+  background-color: transparent;
+  border: 1px solid #9A9A98;
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+

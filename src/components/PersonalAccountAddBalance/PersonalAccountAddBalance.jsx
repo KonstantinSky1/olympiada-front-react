@@ -37,38 +37,38 @@ function PersonalAccountAddBalance() {
             </ul>
           </div>
         </div>
-        <div class="pesonal-account__payments">
-          <div class="pesonal-account__payments-info">
-            <h4 class="pesonal-account__payments-info-title">Пополнение баланса</h4>
-            <div class="pesonal-account__payments-info-user">
-              <div class="pesonal-account__payments-info-user-itemOne">
-                <p class="pesonal-account__payments-info-user-text">Номер счета:</p>
-                <p class="pesonal-account__payments-info-user-text">Имя пользователя:</p>
-                <p class="pesonal-account__payments-info-user-text">Текущий баланс:</p>
+        <div className="pesonal-account__payments">
+          <div className="pesonal-account__payments-info">
+            <h4 className="pesonal-account__payments-info-title">Пополнение баланса</h4>
+            <div className="pesonal-account__payments-info-user">
+              <div className="pesonal-account__payments-info-user-itemOne">
+                <p className="pesonal-account__payments-info-user-text">Номер счета:</p>
+                <p className="pesonal-account__payments-info-user-text">Имя пользователя:</p>
+                <p className="pesonal-account__payments-info-user-text">Текущий баланс:</p>
               </div>
-              <div class="pesonal-account__payments-info-user-itemOne">
-                <p class="pesonal-account__payments-info-user-text font-color-dark">#2345678768</p>
-                <p class="pesonal-account__payments-info-user-text font-color-dark">karimova.d@gmail.com</p>
-                <p class="pesonal-account__payments-info-user-text font-color-dark">1200 тенге</p>
+              <div className="pesonal-account__payments-info-user-itemOne">
+                <p className="pesonal-account__payments-info-user-text font-color-dark">#2345678768</p>
+                <p className="pesonal-account__payments-info-user-text font-color-dark">karimova.d@gmail.com</p>
+                <p className="pesonal-account__payments-info-user-text font-color-dark">1200 тенге</p>
               </div>
             </div>
-            <p class="pesonal-account__payments-info-text">Стоимость участия в одной олимпиаде составляет:</p>
-            <p class="pesonal-account__payments-info-text">- для школьников 2500 тенге;</p>
-            <p class="pesonal-account__payments-info-text">- для учителей 2500 тенге.</p>
-            <p class="pesonal-account__payments-info-payment-choice">Выберите удобный способ пополнения счета:</p>
+            <p className="pesonal-account__payments-info-text">Стоимость участия в одной олимпиаде составляет:</p>
+            <p className="pesonal-account__payments-info-text">- для школьников 2500 тенге;</p>
+            <p className="pesonal-account__payments-info-text">- для учителей 2500 тенге.</p>
+            <p className="pesonal-account__payments-info-payment-choice">Выберите удобный способ пополнения счета:</p>
           </div>
-          <div class="pesonal-account__payments-bank">
+          <div className="pesonal-account__payments-bank">
             <img src={kaspiPic} alt="Картинка" />
-            <p class="pesonal-account__payments-bank-payment">Оплата через Kaspi банк</p>
-            <p class="pesonal-account__payments-bank-text">Данный способ позволяет удобно и быстро пополнить баланс счета через приложение Kaspi.kz. Вы можете самостоятельно отыскать в разделе платежи, либо воспользоваться QR кодом, нажав кнопку "Перейти к оплате"</p>
-            <a href="#" class="pesonal-account__payments-bank-link">Перейти к оплате</a>
+            <p className="pesonal-account__payments-bank-payment">Оплата через Kaspi банк</p>
+            <p className="pesonal-account__payments-bank-text">Данный способ позволяет удобно и быстро пополнить баланс счета через приложение Kaspi.kz. Вы можете самостоятельно отыскать в разделе платежи, либо воспользоваться QR кодом, нажав кнопку "Перейти к оплате"</p>
+            <a href="#" className="pesonal-account__payments-bank-link">Перейти к оплате</a>
           </div>
-          <div class="pesonal-account__payments-bank">
+          <div className="pesonal-account__payments-bank">
             <img src={qiwiPic} alt="Картинка" />
-            <p class="pesonal-account__payments-bank-payment">Оплата через платежные терминалы QIWI (ОСМП)</p>
-            <p class="pesonal-account__payments-bank-text">После платежа через платежные терминалы деньги мгновенно поступают на счет участника. Комиссия в данном способе оплаты составляет 0 тенге.</p>
-            <p class="pesonal-account__payments-bank-text">При платеже необходимо указать номер счета учаcтника зарегистрированного на текущем сайте</p>
-            <a href="#" class="pesonal-account__payments-bank-link">Перейти к оплате</a>
+            <p className="pesonal-account__payments-bank-payment">Оплата через платежные терминалы QIWI (ОСМП)</p>
+            <p className="pesonal-account__payments-bank-text">После платежа через платежные терминалы деньги мгновенно поступают на счет участника. Комиссия в данном способе оплаты составляет 0 тенге.</p>
+            <p className="pesonal-account__payments-bank-text">При платеже необходимо указать номер счета учаcтника зарегистрированного на текущем сайте</p>
+            <a href="#" className="pesonal-account__payments-bank-link">Перейти к оплате</a>
           </div>
         </div>
       </div>

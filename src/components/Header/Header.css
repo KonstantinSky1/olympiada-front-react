@@ -47,6 +47,10 @@
   margin: 0 70px 0 0;
 }
 
+.header__bottom-title:hover {
+  opacity: .5;
+}
+
 .header__bottom-content {
   min-height: 80px;
   display: flex;

@@ -16,7 +16,7 @@
   opacity: 0;
 }
 
-.loggined-user-menu.active {
+.loggined-user-menu.loggined-user-menu_active {
   visibility: visible;
   opacity: 1;
 }

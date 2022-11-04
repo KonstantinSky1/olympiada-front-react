@@ -11,6 +11,9 @@ import Main from '../Main/Main';
 import News from '../News/News';
 import PersonalAccountInfo from '../PersonalAccountInfo/PersonalAccountInfo';
 import PersonalAccountAddBalance from '../PersonalAccountAddBalance/PersonalAccountAddBalance';
+import PageNotFound from '../PageNotFound/PageNotFound';
+import Promotions from '../Promotions/Promotions';
+import NewsItemOpen from '../NewsItemOpen/NewsItemOpen';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -20,6 +23,16 @@ function App() {
       path: '/',
       element: <Root />,
       children: [
+        // newsitemopen - временное решение!!!!
+        {
+          path: "newsitemopen",
+          element: <NewsItemOpen />,
+        },
+        // ===================================
+        {
+          path: "promotions",
+          element: <Promotions />,
+        },
         {
           path: "personalaccountaddballance",
           element: <PersonalAccountAddBalance />,
@@ -43,6 +56,10 @@ function App() {
         {
           path: "/",
           element: <Main />
+        },
+        {
+          path: "*",
+          element: <PageNotFound />
         }
         // {
         //   index: true,
