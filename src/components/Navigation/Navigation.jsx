@@ -23,7 +23,7 @@ function Navigation() {
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/bvnmvnxui" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Дневник</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/myhktr" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Турниры</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/promotions" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Акции</NavLink></li>
-        <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/nxfgbtuyrt" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Служба поддержки</NavLink></li>
+        <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/support" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Служба поддержки</NavLink></li>
       </ul>
     </nav>
   );

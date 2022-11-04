@@ -14,6 +14,7 @@ import PersonalAccountAddBalance from '../PersonalAccountAddBalance/PersonalAcco
 import PageNotFound from '../PageNotFound/PageNotFound';
 import Promotions from '../Promotions/Promotions';
 import NewsItemOpen from '../NewsItemOpen/NewsItemOpen';
+import Support from '../Support/Support';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
           element: <NewsItemOpen />,
         },
         // ===================================
+        {
+          path: "support",
+          element: <Support />,
+        },
         {
           path: "promotions",
           element: <Promotions />,
