@@ -15,6 +15,7 @@ import PageNotFound from '../PageNotFound/PageNotFound';
 import Promotions from '../Promotions/Promotions';
 import NewsItemOpen from '../NewsItemOpen/NewsItemOpen';
 import Support from '../Support/Support';
+import PaymentKaspi from '../PaymentKaspi/PaymentKaspi';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
           element: <NewsItemOpen />,
         },
         // ===================================
+        {
+          path: "kaspipayment",
+          element: <PaymentKaspi />,
+        },
         {
           path: "support",
           element: <Support />,

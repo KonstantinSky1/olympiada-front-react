@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import './PersonalAccountAddBalance.css';
 
@@ -61,14 +61,14 @@ function PersonalAccountAddBalance() {
             <img src={kaspiPic} alt="Картинка" />
             <p className="pesonal-account__payments-bank-payment">Оплата через Kaspi банк</p>
             <p className="pesonal-account__payments-bank-text">Данный способ позволяет удобно и быстро пополнить баланс счета через приложение Kaspi.kz. Вы можете самостоятельно отыскать в разделе платежи, либо воспользоваться QR кодом, нажав кнопку "Перейти к оплате"</p>
-            <a href="#" className="pesonal-account__payments-bank-link">Перейти к оплате</a>
+            <Link to="/kaspipayment" className="pesonal-account__payments-bank-link">Перейти к оплате</Link>
           </div>
           <div className="pesonal-account__payments-bank">
             <img src={qiwiPic} alt="Картинка" />
             <p className="pesonal-account__payments-bank-payment">Оплата через платежные терминалы QIWI (ОСМП)</p>
             <p className="pesonal-account__payments-bank-text">После платежа через платежные терминалы деньги мгновенно поступают на счет участника. Комиссия в данном способе оплаты составляет 0 тенге.</p>
             <p className="pesonal-account__payments-bank-text">При платеже необходимо указать номер счета учаcтника зарегистрированного на текущем сайте</p>
-            <a href="#" className="pesonal-account__payments-bank-link">Перейти к оплате</a>
+            <Link to="#" className="pesonal-account__payments-bank-link">Перейти к оплате</Link>
           </div>
         </div>
       </div>

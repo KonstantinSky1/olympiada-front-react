@@ -14,36 +14,46 @@
 }
 
 .support__textBlock {
-  margin: 0 0 60px 0;
+  margin: 0 0 27px 0;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .support__text {
   font-size: 17px;
-  line-height: 20px;
+  line-height: 24px;
   color: #181716;
 }
 
 .support__form {
-  margin: 0 0 60px 0;
+  margin: 0 0 27px 0;
 }
 
-.inputs-block {
-  display: flex;
-}
-
-.support__input-question {
+.support__textarea-label-text {
   display: block;
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.support__textarea {
+  resize: none;
+  display: block;
+  min-height: 80px;
   width: 100%;
-  height: 40px;
-  border: 1px solid #07406F;
+  border: 1px solid #4A69FF;
   border-radius: 4px;
-  margin: 0 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-  padding: 0 24px;
+  padding: 8px 11px;
+  overflow: auto;
+  margin: 0 0 20px 0;
+  background: url('../../images/support-question-texarea-icon.svg') 98% 85% no-repeat;
+}
+
+.support__textarea::placeholder {
+  color: #9C9C9C;
 }
 
 .support__button-submit {
@@ -53,4 +63,5 @@
   background-color: #4A69FF;
   border-radius: 4px;
   padding: 8px 24px;
+  height: 40px;
 }

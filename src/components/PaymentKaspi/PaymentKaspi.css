@@ -1,0 +1,183 @@
+.pesonal-account-info {
+  min-width: 70%;
+}
+
+.pesonal-account {
+  display: flex;
+  min-height: 550px;
+  margin: 0 0 10px 0;
+}
+
+.pesonal-account__info {
+  margin: 0 20px 0 0;
+}
+
+.pesonal-account__info-photo-card-block {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 12px;
+  margin: 0 0 20px 0;
+}
+
+.pesonal-account__info-nav-links-block {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  width: 215px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px;
+}
+
+.pesonal-account__info-photo-card-student-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px 0 0 0;
+}
+
+.pesonal-account__info-photo-card-student-info {
+  font-size: 14px;
+  line-height: 22px;
+  color: #9C9C9C;
+}
+
+.pesonal-account__info-photo-card-block-image {
+  width: 150px;
+  flex: 0 0 150px;
+}
+
+.pesonal-account__info-photo-card-block-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dropdown-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 12px 0;
+}
+
+.dropdown-menu_padding-top {
+  padding: 12px 0 0 0;
+}
+
+.dropdown-menu__text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #9C9C9C;
+}
+
+.dropdown-menu__arrow {
+  background: url('../../images/dropdown-menu-icon.svg') no-repeat;
+  width: 18px;
+  height: 9px;
+  cursor: pointer;
+}
+
+.pesonal-account__info-nav-links-list.subMenu-open{
+  display: none;
+}
+
+.pesonal-account__info-nav-links-list-item {
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 0 10px 0;
+}
+
+.pesonal-account__info-nav-links-list-item:last-child {
+  margin: 0;
+}
+
+.pesonal-account__info-nav-links-list-item-link {
+  color: #000;
+}
+
+.pesonal-account__bank-payment {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 15px 20px;
+}
+
+.pesonal-account__bank-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 20px 0;
+}
+
+.pesonal-account__bank-info {
+  display: flex;
+  gap: 20px;
+  margin: 0 0 30px 0;
+}
+
+.pesonal-account__bank-info-text {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 0 10px 0;
+}
+
+.pesonal-account__bank-info-text:last-child {
+  margin: 0;
+}
+
+.pesonal-account__bank-payment-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 10px 0;
+}
+
+.pesonal-account__bank-payment-text {
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 0 30px 0;
+}
+
+.payment-label-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #535350;
+  margin: 0 0 5px 0;
+}
+
+.pesonal-account__bank-payment-input-block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.payment-input {
+  display: block;
+  padding: 8px 24px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #07406F;
+  border-radius: 4px;
+  width: 270px;
+}
+
+.payment-input::placeholder {
+  color: #9A9A98;
+}
+
+.pesonal-account__bank-payment-submit {
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+  background-color: #4A69FF;
+  border-radius: 4px;
+  height: 32px;
+}

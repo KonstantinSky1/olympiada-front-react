@@ -9,9 +9,15 @@ function Support() {
     <form name="support-form" className="support__form">
       <div className="inputs-block">
         <label>
-          <input type="text" name="question" className="support__input-question" />
+          <span className="support__textarea-label-text">Для Ваших вопросов и предложений</span>
+            <textarea
+              type="text"
+              name="support-questions"
+              className="support__textarea"
+              placeholder="Напишите нам"
+            >
+            </textarea>
         </label>
-        
         <button className="support__button-submit" type="submit">Отправить</button>
       </div>
     </form>

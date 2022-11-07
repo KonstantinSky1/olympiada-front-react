@@ -31,7 +31,7 @@ function Header() {
       <div className="header__bottom">
         <div className="header__container">
           <div className="header__bottom-content">
-            <Link to="/" className="header__bottom-title">SMARTEST</Link>
+            <Link to="/" className="header__bottom-title">HiTest</Link>
             <form name="search" className="search-form">
               <input type="text" className="search-form__input" placeholder="Поиск" />
               <button type="submit" className="search-form__button"></button>
