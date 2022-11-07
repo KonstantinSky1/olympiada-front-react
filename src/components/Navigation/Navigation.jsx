@@ -14,7 +14,7 @@ function Navigation() {
             <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/hkjkhk" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Расписание 2022</NavLink></li>
           </ul>
         </li>
-        <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/ghfgfh" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Олимпиада</NavLink></li>
+        <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/opentoplay" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Олимпиада</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/bnju" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Курсы</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/asryjk" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Репетиторы</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/qwy" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Онлайн-обучение</NavLink></li>

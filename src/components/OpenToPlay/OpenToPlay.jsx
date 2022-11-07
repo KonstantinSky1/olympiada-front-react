@@ -16,7 +16,7 @@ function OpenToPlay() {
   }
 
   return (
-    <section className="olympiad-register">
+    <section className="olympiad-register" style={{'width': '100%', 'height': '100%'}}>
       <h4 className="olympiad-register__navigation-title">Олимпиады</h4>
       <div className="olympiad-register__navigation">
         <div className="olympiad-register__navigation-block">

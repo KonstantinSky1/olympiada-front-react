@@ -16,6 +16,8 @@ import Promotions from '../Promotions/Promotions';
 import NewsItemOpen from '../NewsItemOpen/NewsItemOpen';
 import Support from '../Support/Support';
 import PaymentKaspi from '../PaymentKaspi/PaymentKaspi';
+import OpenToPlay from '../OpenToPlay/OpenToPlay';
+import OlympiadStart from '../OlympiadStart/OlympiadStart';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -31,6 +33,16 @@ function App() {
           element: <NewsItemOpen />,
         },
         // ===================================
+        // olympiadstart - временное решение!!!!
+        {
+          path: "olympiadstart",
+          element: <OlympiadStart />,
+        },
+        // ===================================
+        {
+          path: "opentoplay",
+          element: <OpenToPlay />,
+        },
         {
           path: "kaspipayment",
           element: <PaymentKaspi />,

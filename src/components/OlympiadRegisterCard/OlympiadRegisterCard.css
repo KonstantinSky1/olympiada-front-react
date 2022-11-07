@@ -40,10 +40,9 @@
   margin: 0 5px 0 0;
 }
 
-.olympiad-register__card-button {
-  background-color: transparent;
+.olympiad-register__card-link {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 38px;
   color: #4A69FF;
   width: 148px;
   height: 38px;
@@ -51,8 +50,9 @@
   margin: 0 auto;
   border: 1px solid #4A69FF;
   border-radius: 10px;
+  text-align: center;
 }
 
-.olympiad-register__card-button:hover {
+.olympiad-register__card-link:hover {
   opacity: .5;
 }
