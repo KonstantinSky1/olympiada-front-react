@@ -10,7 +10,7 @@ import pic4 from '../../images/test.png';
 
 function OlympiadStart() {
   return (
-    <div className="olympiadStart">
+    <section className="olympiadStart">
       <div className="olympiad-class">
         <div className="olympiad-subject">
           <img src={Pic1} alt="Картинки" className="olympiad-subject__image" />
@@ -113,7 +113,7 @@ function OlympiadStart() {
         </div>
         <Link to="/rating" className="olympiad-rezults__rating-link">Рейтинг участников</Link>
       </div>
-    </div>
+    </section>
   );
 }
 

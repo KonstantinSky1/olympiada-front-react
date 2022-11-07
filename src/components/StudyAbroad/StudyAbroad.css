@@ -1,0 +1,95 @@
+.studyAbroad-class {
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 0 0 25px 0;
+}
+
+.studyAbroad-subject {
+  display: flex;
+  gap: 40px;
+}
+
+.studyAbroad-subject__image {
+  width: 215px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.studyAbroad-subject__content-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.studyAbroad-subject__content-block-text {
+  flex: 1 1 auto;
+}
+
+.studyAbroad-subject__content-text-header {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9C9C9C;
+  margin: 0 0 10px 0;
+}
+
+.studyAbroad-subject__content-text-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  width: 363px;
+  margin: 0 0 20px 0;
+}
+
+.studyAbroad-subject__content-text-info {
+  font-size: 17px;
+  line-height: 20px;
+  margin: 0 0 15px 0;
+}
+
+.studyAbroad-subject__content-link-begin {
+  display: inline-block;
+  height: 43px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 43px;
+  color: #FFF;
+  padding: 0 45px 0 45px;
+  background-color: #4A69FF;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.studyAbroad-subject__content-link-begin:hover {
+  opacity: .5;
+}
+
+.studyAbroad-subject__content-link-begin span::after {
+  content: '';
+  display: inline-block;
+  background: url('../../images/icon-arrow-right.svg');
+  width: 21px;
+  height: 14px;
+  margin: 0 0 0 7px;
+}
+
+.studyAbroad__our-partners {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.studyAbroad__our-partners-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 20px 0;
+}
+
+.studyAbroad__our-partners-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  column-gap: 80px;
+  row-gap: 40px;
+}

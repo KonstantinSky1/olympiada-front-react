@@ -19,6 +19,7 @@ import PaymentKaspi from '../PaymentKaspi/PaymentKaspi';
 import OpenToPlay from '../OpenToPlay/OpenToPlay';
 import OlympiadStart from '../OlympiadStart/OlympiadStart';
 import Rating from '../Rating/Rating';
+import StudyAbroad from '../StudyAbroad/StudyAbroad';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -40,6 +41,10 @@ function App() {
           element: <OlympiadStart />,
         },
         // ===================================
+        {
+          path: "studyabroad",
+          element: <StudyAbroad />,
+        },
         {
           path: "rating",
           element: <Rating />,

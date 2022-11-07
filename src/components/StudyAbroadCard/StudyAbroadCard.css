@@ -1,0 +1,28 @@
+.studyAbroad__our-partners-list-item {
+  width: 250px;
+  min-height: 215px;
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+
+.studyAbroad__our-partners-list-item-image {
+  flex: 0 0 250px;
+  width: 250px;
+  height: 165px;
+  margin: 0 0 20px 0;
+}
+
+.studyAbroad__our-partners-list-item-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.studyAbroad__our-partners-list-item-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
