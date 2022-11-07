@@ -1,0 +1,69 @@
+.olympiad-rating {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+  width: 100%;
+}
+
+.olympiad-rating__title {
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.olympiad-rating__content {
+  padding: 25px;
+  border: 1px solid #4A69FF;
+  border-radius: 20px;
+}
+
+.olympiad-rating__quantity {
+  margin: 0 0 30px 0;
+  display: flex;
+}
+
+.olympiad-rating__quantity-users {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  margin: 0 15px 0 0;
+}
+
+.olympiad-rating__quantity-number {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  color: rgba(47, 47, 47, 0.4);
+}
+
+.olympiad-rating__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.olympiad-rating__list-item_marginBottom20 {
+  margin: 0 0 20px 0;
+}
+
+.olympiad-rating__width15 {
+  width: 15%;
+}
+
+.olympiad-rating__width40 {
+  width: 40%;
+}
+
+.olympiad-rating__list-item-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #4F5E74;
+  background-color: #EFF0F6;
+  opacity: 0.5;
+  border-radius: 7px;
+  width: fit-content;
+  height: 27px;
+  margin: 0 auto;
+  padding: 0 10px;
+}

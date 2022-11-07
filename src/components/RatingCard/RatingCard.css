@@ -1,0 +1,65 @@
+.olympiad-rating__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.olympiad-rating__list-item_paddingTopBottom {
+  padding: 20px 0 20px 0;
+}
+
+.olympiad-rating__width15 {
+  width: 15%;
+}
+
+.olympiad-rating__width40 {
+  width: 40%;
+}
+
+.olympiad-rating__list-item-text {
+  font-size: 17px;
+  line-height: 20px;
+  color: #70768C;
+  text-align: center;
+}
+
+.olympiad-rating__user-info-block {
+  display: flex;
+}
+
+.olympiad-rating__user-info-image {
+  margin: 0 20px 0 0;
+  flex: 0 0 60px;
+  width: 60px;
+  height: 70px;
+}
+
+.olympiad-rating__user-info-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.olympiad-rating__user-info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.olympiad-rating__user-info-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.olympiad-rating__user-info-school {
+  font-size: 17px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.olympiad-rating__list-item_center {
+  width: fit-content;
+  margin: 0 auto;
+}

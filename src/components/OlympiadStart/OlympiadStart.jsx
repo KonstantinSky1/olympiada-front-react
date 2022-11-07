@@ -111,7 +111,7 @@ function OlympiadStart() {
             <p className="olympiad-rezults__rezult-answer">25</p>
           </div>
         </div>
-        <button type="button" className="olympiad-rezults__rating-button">Рейтинг участников</button>
+        <Link to="/rating" className="olympiad-rezults__rating-link">Рейтинг участников</Link>
       </div>
     </div>
   );

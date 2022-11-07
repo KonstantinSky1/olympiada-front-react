@@ -18,6 +18,7 @@ import Support from '../Support/Support';
 import PaymentKaspi from '../PaymentKaspi/PaymentKaspi';
 import OpenToPlay from '../OpenToPlay/OpenToPlay';
 import OlympiadStart from '../OlympiadStart/OlympiadStart';
+import Rating from '../Rating/Rating';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
           element: <OlympiadStart />,
         },
         // ===================================
+        {
+          path: "rating",
+          element: <Rating />,
+        },
         {
           path: "opentoplay",
           element: <OpenToPlay />,

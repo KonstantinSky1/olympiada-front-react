@@ -340,9 +340,9 @@
   line-height: 28px;
 }
 
-.olympiad-rezults__rating-button {
+.olympiad-rezults__rating-link {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 40px;
   color: #FFFFFF;
   padding: 0 24px;
   height: 40px;
@@ -350,8 +350,9 @@
   border-radius: 4px;
   margin: 0 auto;
   display: block;
+  width: fit-content;
 }
 
-.olympiad-rezults__rating-button:hover {
+.olympiad-rezults__rating-link:hover {
   opacity: .5;
 }
