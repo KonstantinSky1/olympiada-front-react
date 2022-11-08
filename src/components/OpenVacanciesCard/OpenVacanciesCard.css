@@ -1,0 +1,63 @@
+.openVacancies__list-item {
+  background: #FAFAFA;
+  border: 1px solid #4A69FF;
+  border-radius: 10px;
+  width: 215px;
+  min-height: 180px;
+  padding: 12px 10px 12px 12px;
+}
+
+.openVacancies__card-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 0 15px 0;
+}
+
+.openVacancies__card-text {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 12px 0;
+}
+
+.openVacancies-card-date::before {
+  content: '';
+  background: url('../../images/icon-calendar-olymp.svg') no-repeat;
+  width: 25px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: -5px;
+  margin: 0 5px 0 0;
+}
+
+.openVacancies-card-people::before {
+  content: '';
+  background: url('../../images/icon-people-olymp.svg') no-repeat;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: -7px;
+  margin: 0 5px 0 0;
+}
+
+.openVacancies__card-button {
+  font-size: 14px;
+  line-height: 38px;
+  color: #4A69FF;
+  width: 125px;
+  height: 38px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #4A69FF;
+  border-radius: 10px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.openVacancies__card-button:hover {
+  opacity: .5;
+}
+
+.openVacancies__card-text_type_margin {
+  margin: 0 0 20px 0;
+}

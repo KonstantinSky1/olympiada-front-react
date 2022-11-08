@@ -20,6 +20,8 @@ import OpenToPlay from '../OpenToPlay/OpenToPlay';
 import OlympiadStart from '../OlympiadStart/OlympiadStart';
 import Rating from '../Rating/Rating';
 import StudyAbroad from '../StudyAbroad/StudyAbroad';
+import StudyAbroadOpenCard from '../StudyAbroadOpenCard/StudyAbroadOpenCard';
+import WorkAbroad from '../WorkAbroad/WorkAbroad';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -41,6 +43,16 @@ function App() {
           element: <OlympiadStart />,
         },
         // ===================================
+        // studyabroadopencard - временное решение!!!!
+        {
+          path: "studyabroadopencard",
+          element: <StudyAbroadOpenCard />,
+        },
+        // ===================================
+        {
+          path: "workabroad",
+          element: <WorkAbroad />,
+        },
         {
           path: "studyabroad",
           element: <StudyAbroad />,

@@ -26,3 +26,11 @@
   font-size: 18px;
   line-height: 24px;
 }
+
+.studyAbroad__our-partners-list-item-link {
+  color: #000;
+}
+
+.studyAbroad__our-partners-list-item-link:hover {
+  opacity: .5;
+}

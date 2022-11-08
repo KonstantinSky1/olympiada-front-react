@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import './StudyAbroadCard.css';
 
@@ -10,7 +11,8 @@ function StudyAbroadCard() {
       <div className="studyAbroad__our-partners-list-item-image">
         <img src={pic1} alt="Картинка" />
       </div>
-      <p className="studyAbroad__our-partners-list-item-text">Карлов университет</p>
+      {/* studyabroadopencard - временное решение! */}
+      <Link to="/studyabroadopencard" className="studyAbroad__our-partners-list-item-link"><p className="studyAbroad__our-partners-list-item-text">Карлов университет</p></Link>
     </li>
   );
 }

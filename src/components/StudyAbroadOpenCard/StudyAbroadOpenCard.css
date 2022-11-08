@@ -1,0 +1,94 @@
+.studyAbroadOpenCard {
+  width: 100%;
+}
+
+.studyUniversityCardInfo {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 0 0 20px 0;
+}
+
+.studyUniversityCardInfo__image-block {
+  display: flex;
+  margin: 0 0 30px 0;
+}
+
+.studyUniversityCardInfo__image {
+  flex: 0 0 345px;
+  width: 345px;
+  height: 227px;
+  margin: 0 35px 0 0;
+}
+
+.studyUniversityCardInfo__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.studyUniversityCardInfo__image-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.studyUniversityCardInfo__image-text-country {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9C9C9C;
+}
+
+.studyUniversityCardInfo__image-text-university {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.studyUniversityCardInfo__image-text-description {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.studyUniversityCardInfo__description-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.studyUniversityCardInfo__description-text {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.studyUniversityFacultyInfo {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.studyUniversityFacultyInfo__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 20px 0;
+}
+
+.studyUniversityFacultyInfo__list {
+  padding-left: 20px;
+}
+
+.studyUniversityFacultyInfo__list-item {
+  list-style: disc;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.studyUniversityFreeConsult {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+}

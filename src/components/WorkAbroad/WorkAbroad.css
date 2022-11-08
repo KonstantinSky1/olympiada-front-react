@@ -1,0 +1,112 @@
+.workAbroad {
+  width: 100%;
+}
+
+.workAbroad-class {
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 0 0 25px 0;
+}
+
+.workAbroad-subject {
+  display: flex;
+  gap: 40px;
+}
+
+.workAbroad-subject__image {
+  width: 215px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.workAbroad-subject__content-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.workAbroad-subject__content-block-text {
+  flex: 1 1 auto;
+}
+
+.workAbroad-subject__content-text-header {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9C9C9C;
+  margin: 0 0 10px 0;
+}
+
+.workAbroad-subject__content-text-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  width: 363px;
+  margin: 0 0 20px 0;
+}
+
+.workAbroad-subject__content-text-info {
+  font-size: 17px;
+  line-height: 20px;
+  margin: 0 0 15px 0;
+}
+
+.workAbroad-subject__content-link-begin {
+  display: inline-block;
+  height: 43px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 43px;
+  color: #FFF;
+  padding: 0 45px 0 45px;
+  background-color: #4A69FF;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.workAbroad-subject__content-link-begin:hover {
+  opacity: .5;
+}
+
+.workAbroad-subject__content-link-begin span::after {
+  content: '';
+  display: inline-block;
+  background: url('../../images/icon-arrow-right.svg');
+  width: 21px;
+  height: 14px;
+  margin: 0 0 0 7px;
+}
+
+.openVacancies {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.openVacancies__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.openVacancies__header-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.openVacancies__header-button {
+  font-size: 16px;
+  line-height: 24px;
+  color: #9C9C9C;
+  background-color: transparent;
+}
+
+.openVacancies__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 215px);
+  column-gap: 20px;
+  row-gap: 20px;
+}

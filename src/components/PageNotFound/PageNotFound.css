@@ -30,3 +30,6 @@
   padding: 8px 24px;
 }
 
+.pageNotFound__button:hover {
+  opacity: .5;
+}
