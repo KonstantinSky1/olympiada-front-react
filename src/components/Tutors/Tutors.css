@@ -101,7 +101,7 @@
 .tutors-subjects__list-item {
   display: block;
   width: 220px;
-  height: 65px;
+  min-height: 65px;
   background-color: #FAFAFA;
   border: 1px solid #4A69FF;
   border-radius: 10px;

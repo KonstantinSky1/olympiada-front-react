@@ -23,6 +23,7 @@ import StudyAbroad from '../StudyAbroad/StudyAbroad';
 import StudyAbroadOpenCard from '../StudyAbroadOpenCard/StudyAbroadOpenCard';
 import WorkAbroad from '../WorkAbroad/WorkAbroad';
 import Tutors from '../Tutors/Tutors';
+import Courses from '../Courses/Courses';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -50,6 +51,10 @@ function App() {
           element: <StudyAbroadOpenCard />,
         },
         // ===================================
+        {
+          path: "courses",
+          element: <Courses />,
+        },
         {
           path: "tutors",
           element: <Tutors />,
