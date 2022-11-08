@@ -16,7 +16,7 @@ function Navigation() {
         </li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/opentoplay" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Олимпиада</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/bnjublablabla" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Курсы</NavLink></li>
-        <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/asryjkblablabla" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Репетиторы</NavLink></li>
+        <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/tutors" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Репетиторы</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/qwyblablabla" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Онлайн-обучение</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/studyabroad" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Обучение за рубежом</NavLink></li>
         <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/workabroad" style={({isActive}) => isActive ? {fontWeight: 700} : undefined}>Работа за рубежом</NavLink></li>

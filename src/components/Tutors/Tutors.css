@@ -1,0 +1,151 @@
+.tutors {
+  width: 100%;
+}
+
+.tutors-class {
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 0 0 25px 0;
+}
+
+.tutors-subject {
+  display: flex;
+  gap: 40px;
+}
+
+.tutors-subject__image {
+  width: 215px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.tutors-subject__content-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.tutors-subject__content-block-text {
+  flex: 1 1 auto;
+}
+
+.tutors-subject__content-text-header {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9C9C9C;
+  margin: 0 0 10px 0;
+}
+
+.tutors-subject__content-text-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  width: 363px;
+  margin: 0 0 20px 0;
+}
+
+.tutors-subject__content-text-info {
+  font-size: 17px;
+  line-height: 20px;
+  margin: 0 0 15px 0;
+}
+
+.tutors-subject__content-link-begin {
+  display: inline-block;
+  height: 43px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 43px;
+  color: #FFF;
+  padding: 0 45px 0 45px;
+  background-color: #4A69FF;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.tutors-subject__content-link-begin:hover {
+  opacity: .5;
+}
+
+.tutors-subject__content-link-begin span::after {
+  content: '';
+  display: inline-block;
+  background: url('../../images/icon-arrow-right.svg');
+  width: 21px;
+  height: 14px;
+  margin: 0 0 0 7px;
+}
+
+.tutors-subjects {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 0 0 25px 0;
+}
+
+.tutors-subjects__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 25px 0;
+}
+
+.tutors-subjects__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  gap: 15px;
+}
+
+.tutors-subjects__list-item {
+  display: block;
+  width: 220px;
+  height: 65px;
+  background-color: #FAFAFA;
+  border: 1px solid #4A69FF;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px 0;
+  color: #000;
+}
+
+.tutors-subjects__list-item:hover {
+  opacity: .5;
+}
+
+.tutors-best-teachers {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.tutors-best-teachers__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 25px 0;
+}
+
+.tutors-best-teachers__header-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tutors-best-teachers__header-button {
+  font-size: 16px;
+  line-height: 24px;
+  color: #9C9C9C;
+  background-color: transparent;
+}
+
+.tutors-best-teachers__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 140px);
+  column-gap: 50px;
+  row-gap: 30px;
+}

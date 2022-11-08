@@ -3,6 +3,7 @@ import React from "react";
 import './StudyAbroadOpenCard.css';
 
 import pic1 from '../../images/study-abroad-card-image.png';
+import pic2 from '../../images/study-university-free-consult.png';
 
 function StudyAbroadOpenCard() {
   return (
@@ -62,7 +63,22 @@ function StudyAbroadOpenCard() {
       </div>
 
       <div className="studyUniversityFreeConsult">
-
+        <h4 className="studyUniversityFreeConsult__title">Заявка на бесплатную консультацию</h4>
+        <div className="studyUniversityFreeConsult__content">
+          <form className="studyUniversityFreeConsult__form">
+            <div className="studyUniversityFreeConsult__inputs-block">
+              <input type="text" name="name" placeholder="Ваше имя" className="studyUniversityFreeConsult__input grid-item-name" />
+              <input type="email" name="email" placeholder="Email" className="studyUniversityFreeConsult__input grid-item-email" />
+              <input type="tel" name="tel" placeholder="Номер телефона" className="studyUniversityFreeConsult__input grid-item-tel" />
+              <input type="text" name="country" placeholder="Страна" className="studyUniversityFreeConsult__input grid-item-country" />
+            </div>
+            <textarea className="studyUniversityFreeConsult__textarea" name="comment" placeholder="Комментарий"></textarea>
+            <button type="submit" className="studyUniversityFreeConsult__submit">Отправить</button>
+          </form>
+          <div className="studyUniversityFreeConsult__image">
+            <img src={pic2} alt="Картинка" />
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -68,6 +68,7 @@
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 25px;
+  margin: 0 0 20px 0;
 }
 
 .studyUniversityFacultyInfo__title {
@@ -91,4 +92,104 @@
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 25px;
+}
+
+.studyUniversityFreeConsult__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 34px 0;
+}
+
+.studyUniversityFreeConsult__content {
+  display: flex;
+}
+
+.studyUniversityFreeConsult__form {
+  flex-grow: 1;
+  margin: 0 35px 0 0;
+}
+
+.studyUniversityFreeConsult__inputs-block {
+  display: grid;
+  column-gap: 45px;
+  row-gap: 25px;
+  grid-template-areas:
+    "name email"
+    "tel country";
+    margin: 0 0 25px 0;
+}
+
+.grid-item-name {
+  grid-area: name;
+}
+
+.grid-item-email {
+  grid-area: email;
+}
+
+.grid-item-tel {
+  grid-area: tel;
+}
+
+.grid-item-country {
+  grid-area: country;
+}
+
+.studyUniversityFreeConsult__textarea {
+  resize: none;
+  padding: 8px 24px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #9A9A98;
+  border-radius: 4px;
+  width: 100%;
+  height: 80px;
+  margin: 0 0 25px 0;
+}
+
+.studyUniversityFreeConsult__submit {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  height: 43px;
+  padding: 0 36px;
+  background: #4A69FF;
+  border-radius: 10px;
+}
+
+.studyUniversityFreeConsult__submit:hover {
+  opacity: .5;
+}
+
+.studyUniversityFreeConsult__textarea::placeholder {
+  color: #9A9A98;
+}
+
+.studyUniversityFreeConsult__input {
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #535350;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 10px 0 24px;
+}
+
+.studyUniversityFreeConsult__input::placeholder {
+  color: #9A9A98;
+}
+
+.studyUniversityFreeConsult__image {
+  flex: 0 0 300px;
+  width: 300px;
+  height: 205px;
+}
+
+.studyUniversityFreeConsult__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
