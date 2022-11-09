@@ -25,6 +25,8 @@ import WorkAbroad from '../WorkAbroad/WorkAbroad';
 import Tutors from '../Tutors/Tutors';
 import Courses from '../Courses/Courses';
 import OpenCoursesCard from '../OpenCoursesCard/OpenCoursesCard';
+import Tournaments from '../Tournaments/Tournaments';
+import OnlineStudy from '../OnlineStudy/OnlineStudy';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -58,6 +60,14 @@ function App() {
           element: <OpenCoursesCard />,
         },
         // ===================================
+        // {
+        //   path: "tournaments",
+        //   element: <Tournaments />,
+        // },
+        {
+          path: "onlinestudy",
+          element: <OnlineStudy />,
+        },
         {
           path: "courses",
           element: <Courses />,
