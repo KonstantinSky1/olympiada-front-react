@@ -24,6 +24,7 @@ import StudyAbroadOpenCard from '../StudyAbroadOpenCard/StudyAbroadOpenCard';
 import WorkAbroad from '../WorkAbroad/WorkAbroad';
 import Tutors from '../Tutors/Tutors';
 import Courses from '../Courses/Courses';
+import OpenCoursesCard from '../OpenCoursesCard/OpenCoursesCard';
 // import Admin from '../Admin/Admin';
 
 function App() {
@@ -49,6 +50,12 @@ function App() {
         {
           path: "studyabroadopencard",
           element: <StudyAbroadOpenCard />,
+        },
+        // ===================================
+        // opencoursescard - временное решение!!!!
+        {
+          path: "opencoursescard",
+          element: <OpenCoursesCard />,
         },
         // ===================================
         {

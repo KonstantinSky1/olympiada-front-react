@@ -1,0 +1,190 @@
+.openCoursesCard-content {
+  display: flex;
+  gap: 20px;
+}
+
+.openCoursesCard-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.openCoursesCard-info__block {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.openCoursesCard-info__block-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 0 15px 0;
+}
+
+.openCoursesCard-info__block-description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 15px 0;
+}
+
+.openCoursesCard-info__block-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9C9C9C;
+  margin: 0 0 15px 0;
+}
+
+.openCoursesCard-info__block-rating-block {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 0;
+}
+
+.openCoursesCard-info__block-rating-number {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+}
+
+.openCoursesCard-info__block-rating-stars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0 10px 0 0;
+}
+
+.openCoursesCard-info__block-rating-people {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9C9C9C;
+}
+
+.openCoursesCard-info__block-update {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9C9C9C;
+}
+
+.openCoursesCard-info__block-list {
+  padding-left: 20px;
+}
+
+.openCoursesCard-info__block-list-item {
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: disc;
+}
+
+.openCoursesCard-card {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  padding: 20px;
+  align-self: flex-start;
+}
+
+.openCoursesCard-card__image {
+  width: 325px;
+  height: 210px;
+  margin: 0 0 20px 0;
+}
+
+.openCoursesCard-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.openCoursesCard-card__discount-price {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: line-through;
+  text-align: end;
+  margin: 0 0 10px 0;
+}
+
+.openCoursesCard-card__price-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.openCoursesCard-card__price {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.openCoursesCard-card__discount {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #83AECC;
+}
+
+.openCoursesCard-card__finish-promotion {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.openCoursesCard-card__promotion-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto 30px auto;
+  width: fit-content;
+}
+
+.openCoursesCard-card__promotion-number-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.openCoursesCard-card__promotion-number {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  color: #FFFFFF;
+  background-color: #124263;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.openCoursesCard-card__promotion-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #83AECC;
+}
+
+.openCoursesCard-card__button {
+  width: 100%;
+  height: 45px;
+  background-color: #4A69FF;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.openCoursesCard-card__button:hover {
+  opacity: .5;
+}

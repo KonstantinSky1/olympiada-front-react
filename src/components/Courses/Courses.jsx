@@ -3,6 +3,7 @@ import React from "react";
 import './Courses.css';
 
 import StartCoursesCard from '../StartCoursesCard/StartCoursesCard';
+import AllCoursesCard from '../AllCoursesCard/AllCoursesCard';
 
 function Courses() {
   return (
@@ -20,6 +21,7 @@ function Courses() {
           <li><a href="#" className="courses-popular-subjects__list-link">SMM</a></li>
         </ul>
       </div>
+
       <div className="courses-popular">
         <h4 className="courses-popular__title">Начните с этих курсов</h4>
         <div className="courses-popular__buttons-block">
@@ -28,6 +30,20 @@ function Courses() {
         </div>
         <ul className="courses-popular__list">
           <StartCoursesCard />
+          <StartCoursesCard />
+          <StartCoursesCard />
+          <StartCoursesCard />
+        </ul>
+      </div>
+
+      <div className="courses-all">
+        <h4 className="courses-all-title">Все курсы</h4>
+        <ul className="courses-all__list">
+          <AllCoursesCard />
+          <AllCoursesCard />
+          <AllCoursesCard />
+          <AllCoursesCard />
+          <AllCoursesCard />
         </ul>
       </div>
     </section>

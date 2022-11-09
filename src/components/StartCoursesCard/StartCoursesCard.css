@@ -18,13 +18,46 @@
 }
 
 .startCoursesCard__title {
+  display: block;
+  color: #000;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   margin: 0 0 15px 0;
 }
 
+.startCoursesCard__title:hover {
+  opacity: .5;
+}
+
 .startCoursesCard__text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9C9C9C;
+  margin: 0 0 15px 0;
+}
+
+.startCoursesCard__rating-block {
+  display: flex;
+  align-items: center;
+}
+
+.startCoursesCard__rating-number {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+}
+
+.startCoursesCard__rating-stars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: auto;
+}
+
+.startCoursesCard__rating-people {
   font-weight: 600;
   font-size: 14px;
   line-height: 14px;
