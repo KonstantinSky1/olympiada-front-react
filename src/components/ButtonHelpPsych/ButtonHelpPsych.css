@@ -6,8 +6,15 @@
   line-height: 24px;
   color: #FFFFFF;
   display: block;
+  margin: 20px auto;
 }
 
 .buttonHelpPsych:hover {
   opacity: .5;
+}
+
+@media screen and (max-width: 768px) {
+  .buttonHelpPsych {
+    margin: 20px 0 0 0;
+  }
 }

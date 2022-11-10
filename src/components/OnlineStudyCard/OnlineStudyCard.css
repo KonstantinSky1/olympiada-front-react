@@ -1,0 +1,60 @@
+.onlineStudyCard {
+  width: 240px;
+  padding: 15px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.onlineStudyCard__image {
+  width: 210px;
+  height: 155px;
+  margin: 0 0 15px 0;
+}
+
+.onlineStudyCard__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.onlineStudyCard__date {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9C9C9C;
+  margin: 0 0 8px 0;
+}
+
+.onlineStudyCard__status {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0 0 20px 0;
+}
+
+.onlineStudyCard__description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 0 15px 0;
+  margin: 0 0 15px 0;
+  border-top: 1px solid #DADADA;
+  border-bottom: 1px solid #DADADA;
+}
+
+.onlineStudyCard__button {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 43px;
+  color: #FFFFFF;
+  background-color: #4A69FF;
+  border-radius: 10px;
+  height: 43px;
+}
+
+.onlineStudyCard__button:hover {
+  opacity: .5;
+}

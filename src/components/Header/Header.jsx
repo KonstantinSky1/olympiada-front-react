@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+
+import { BurgerMenuContext } from '../../contexts/BurgerMenuContext';
 
 import './Header.css';
 
@@ -10,6 +12,9 @@ import NotLogginedNavigation from '../NotLogginedNavigation/NotLogginedNavigatio
 import LogginedNavigation from '../LogginedNavigation/LogginedNavigation';
 
 function Header() {
+  // Получаем menuActive, setMenuActive для бургер-меню через Context
+  const {menuActive, setMenuActive} = useContext(BurgerMenuContext);
+
   return (
     <header className="header">
       <div className="header__container">
@@ -31,6 +36,14 @@ function Header() {
       <div className="header__bottom">
         <div className="header__container">
           <div className="header__bottom-content">
+            {/* Бургер меню: */}
+            <div className={menuActive ? 'menu__icon _active' : 'menu__icon'} onClick={() => {
+              setMenuActive(!menuActive);
+              document.body.classList.toggle('_lock');
+            }}>
+              <span></span>
+            </div>
+
             <Link to="/" className="header__bottom-title">HiTest</Link>
             <form name="search" className="search-form">
               <input type="text" className="search-form__input" placeholder="Поиск" />

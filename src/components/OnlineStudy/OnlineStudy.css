@@ -13,3 +13,9 @@
   font-size: 17px;
   line-height: 20px;
 }
+
+.onlineStudy__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  gap: 20px;
+}

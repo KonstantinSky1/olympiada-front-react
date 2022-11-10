@@ -34,3 +34,37 @@
 .notLogginedNavigation-register-link:hover {
   opacity: .5;
 }
+
+@media screen and (max-width: 768px) {
+  .notLogginedNavigation-login-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .notLogginedNavigation-register-link {
+    border-radius: 7px;
+    width: 132px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .notLogginedNavigation {
+    margin: 0 0 0 5px;
+  }
+  
+  .notLogginedNavigation-login-link {
+    margin: 0 5px 0 0;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .notLogginedNavigation-register-link {
+    font-size: 10px;
+    line-height: 30px;
+    width: 77px;
+    height: 35px;
+  }
+}

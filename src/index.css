@@ -1,3 +1,7 @@
 @import url('./vendor/reset.css');
 
-@import url('./vendor/fonts/fonts.css')
+@import url('./vendor/fonts/fonts.css');
+
+body._lock {
+  overflow: hidden;
+}
