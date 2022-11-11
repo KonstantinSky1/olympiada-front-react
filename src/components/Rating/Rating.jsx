@@ -14,7 +14,7 @@ function Rating() {
           <p className="olympiad-rating__quantity-number">25</p>
         </div>
         <ul className="olympiad-rating__list">
-          <li className="olympiad-rating__list-item olympiad-rating__list-item_marginBottom20">
+          <li className="olympiad-rating__list-item-first olympiad-rating__list-item_marginBottom20">
             <div className="olympiad-rating__width15"><p className="olympiad-rating__list-item-title">Место</p></div>
             <div className="olympiad-rating__width40"><p className="olympiad-rating__list-item-title">Фамилия Имя</p></div>
             <div className="olympiad-rating__width15"><p className="olympiad-rating__list-item-title">Баллы</p></div>

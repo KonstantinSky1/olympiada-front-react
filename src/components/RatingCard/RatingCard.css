@@ -63,3 +63,98 @@
   width: fit-content;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1100px) {
+  .olympiad-rating__list-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .olympiad-rating__width15 {
+    width: fit-content;
+    margin: 0 0 7px 0;
+  }
+
+  .olympiad-rating__width15:last-child {
+    margin: 0;
+  }
+
+  .olympiad-rating__width40 {
+    width: fit-content;
+  }
+
+  .olympiad-rating__list-item_center {
+    margin: 0;
+  }
+
+  .olympiad-rating__user-info-block {
+    flex-direction: column;
+  }
+
+  .olympiad-rating__user-info-image {
+    margin: 0 0 15px 0;
+    flex: 0 0 190px;
+    width: 190px;
+    height: 210px;
+
+  }
+
+  .olympiad-rating__order-1 {
+    order: 1;
+  }
+
+  .olympiad-rating__order-2 {
+    order: 2;
+  }
+
+  .olympiad-rating__order-3 {
+    order: 3;
+  }
+
+  .olympiad-rating__order-4 {
+    order: 4;
+  }
+
+  .olympiad-rating__order-5 {
+    order: 5;
+  }
+
+  .olympiad-rating__list-item-text::after {
+    font-weight: 600;
+    font-size: inherit;
+    line-height: 27px;
+    color: #4F5E74;
+    background-color: #EFF0F6;
+    opacity: 0.5;
+    border-radius: 7px;
+    height: 27px;
+    margin: 0 0 0 10px;
+    padding: 0 10px;
+    display: inline-block;
+  }
+
+  .olympiad-rating__list-item-text-place::after {
+    content: " Место";
+  }
+
+  .olympiad-rating__list-item-text-score::after {
+    content: " Баллы";
+  }
+
+  .olympiad-rating__list-item-text-time::after {
+    content: " Время";
+  }
+
+  .olympiad-rating__list-item-text-testDate::after {
+    content: " Дата сдачи";
+  }
+
+  .olympiad-rating__user-info-content {
+    gap: 7px;
+    margin: 0 0 7px 0;
+  }
+
+  /* .olympiad-rating__content {
+    padding: 15px;
+  } */
+}
