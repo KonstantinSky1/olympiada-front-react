@@ -78,3 +78,21 @@
   line-height: 14px;
   color: #9C9C9C;
 }
+
+@media screen and (max-width: 990px) {
+  .courses-all__list-item {
+    flex-direction: column;
+  }
+
+  .courses-all__image {
+    width: 100%;
+    height: 360px;
+    margin: 0 0 35px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .courses-all__image {
+    height: 260px;
+  }
+}

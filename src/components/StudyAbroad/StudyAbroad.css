@@ -93,3 +93,17 @@
   column-gap: 80px;
   row-gap: 40px;
 }
+
+@media screen and (max-width: 990px) {
+  .studyAbroad-subject {
+    flex-direction: column;
+  }
+
+  .studyAbroad-subject__content-text-title {
+    width: 100%;
+  }
+
+  .studyAbroad-subject__image {
+    width: 100%;
+  }
+}

@@ -188,3 +188,23 @@
 .openCoursesCard-card__button:hover {
   opacity: .5;
 }
+
+@media screen and (max-width: 1100px) {
+  .openCoursesCard-content {
+    flex-direction: column;
+  }
+
+  .openCoursesCard-info {
+    order: 2;
+  }
+
+  .openCoursesCard-card {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .openCoursesCard-card__image {
+    width: 100%;
+  }
+}

@@ -69,3 +69,9 @@
 .support__button-submit:hover {
   opacity: .5;
 }
+
+@media screen and (max-width: 768px) {
+  .support {
+    padding: 20px;
+  }
+}
