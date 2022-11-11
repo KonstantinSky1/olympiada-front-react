@@ -31,34 +31,39 @@
   gap: 30px;
 }
 
-.button-participate {
+.main__adverts-buttons {
   display: block;
   font-size: 16px;
   line-height: 40px;
-  color: #FFFFFF;
-  background-color: #4A69FF;
   border-radius: 4px;
   width: 132px;
   height: 40px;
   text-align: center;
 }
 
-.button-participate:hover {
+.main__adverts-buttons:hover {
   opacity: .5;
+}
+
+.button-participate {
+  color: #FFFFFF;
+  background-color: #4A69FF;
 }
 
 .button-details {
-  display: block;
-  font-size: 16px;
-  line-height: 40px;
   color: #161613;
   border: 1px solid #9A9A98;
-  border-radius: 4px;
-  width: 132px;
-  height: 40px;
-  text-align: center;
 }
 
-.button-details:hover {
-  opacity: .5;
+@media screen and (max-width: 650px) {
+  .main__adverts-buttons-block {
+    gap: 10px;
+  }
+
+  .main__adverts-buttons {
+    font-size: 12px;
+    line-height: 30px;
+    width: 85px;
+    height: 30px;
+  }
 }

@@ -45,6 +45,7 @@
 }
 
 .footer__content {
+  pointer-events: none;
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -68,4 +69,48 @@
 
 .footer__list-links-item-link:hover {
   opacity: .5;
+}
+
+@media screen and (max-width: 991px) {
+  .footer__content {
+    flex-direction: column;
+    pointer-events: auto;
+    gap: 30px;
+  }
+
+  .footer__navlinks {
+    order: 1;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer__logo-block {
+    order: 2;
+  }
+
+  .footer__list-links {
+    display: none;
+    margin: 15px 0 0 0;
+  }
+  
+  .footer__list-links li {
+    margin: 0 0 10px 0;
+  }
+
+  .footer__list-links li:last-of-type {
+    margin: 0;
+  }
+
+  .footer__title {
+    cursor: pointer;
+    width: fit-content;
+  }
+
+  .footer__list-links._active {
+    display: block;
+  }
+
+  .footer__title {
+    margin: 0;
+  }
 }

@@ -11,20 +11,20 @@ import SeasonWinners from '../SeasonWinners/SeasonWinners';
 
 function Main() {
 return (
-  <div className="main">
-    <section className="main__adverts">
+  <section className="main">
+    <div className="main__adverts">
       <div className="main__adverts-image-block">
         <img src={mainAdvertsPic1} alt="Картинка" className="main__adverts-image"/>
       </div>
       <div className="main__adverts-buttons-block">
-        <Link to="/" className="button-participate">Участвовать</Link>
-        <Link to="/" className="button-details">Подробнее</Link>
+        <Link to="/" className="main__adverts-buttons button-participate">Участвовать</Link>
+        <Link to="/" className="main__adverts-buttons button-details">Подробнее</Link>
       </div>
-    </section>
+    </div>
     <OpenToPlay />
     <AllNewsMain />
     <SeasonWinners />
-  </div>
+  </section>
 );
 }
 

@@ -136,10 +136,6 @@
   margin: 0 0 40px 0;
 }
 
-.olympiad-exercises__pagination {
-  padding: 0 0 0 300px;
-}
-
 .olympiad-exercises__time-counter {
   display: flex;
   align-items: center;
@@ -351,4 +347,56 @@
 
 .olympiad-rezults__rating-link:hover {
   opacity: .5;
+}
+
+@media screen and (max-width: 990px) {
+  .olympiad-subject {
+    flex-direction: column;
+  }
+
+  .olympiad-subject__content-text-title {
+    width: 100%;
+  }
+
+  .olympiad-subject__image {
+    width: 100%;
+  }
+
+  .olympiad-rezults__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .olympiad-rezults__header-title {
+    order: 2;
+  }
+
+  .olympiad-rezults__header-link {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .olympiad-rezults__rezult-text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .olympiad-rezults__rezult-answer {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .olympiad-rezults__rezult-text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .olympiad-rezults__rezult-answer {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }

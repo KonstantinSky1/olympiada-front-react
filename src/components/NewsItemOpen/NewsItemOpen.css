@@ -41,6 +41,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 18px;
+  margin: 0 10px 0 0;
 }
 
 
@@ -78,4 +79,23 @@
 .news-item-open__content-text-item {
   font-size: 17px;
   line-height: 22px;
+}
+
+@media screen and (max-width: 900px) {
+  .news-item-open__contentBlock {
+    flex-direction: column;
+  }
+
+  .news-item-open__content-imageBlock {
+    width: 100%;
+  }
+
+  .news-item-open__user-info-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .news-item-open__user-info {
+    margin: 0 0 10px 0;
+  }
 }

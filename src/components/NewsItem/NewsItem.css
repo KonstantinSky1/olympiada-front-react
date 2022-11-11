@@ -68,3 +68,13 @@
   line-height: 16px;
   color: #9C9C9C;
 }
+
+@media screen and (max-width: 400px) {
+  .all-news__list-itemBlock {
+    flex-direction: column;
+  }
+
+  .all-news__list-item-textBlock {
+    margin: 0 0 20px 0;
+  }
+}

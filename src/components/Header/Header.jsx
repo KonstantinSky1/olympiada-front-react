@@ -50,7 +50,7 @@ function Header() {
               <button type="submit" className="search-form__button"></button>
             </form>
             {/* В зависимости от того залогинен ли пользователь сделать примерно так: { isUserLoggined() ? <LogginedNavigation /> : <NotLogginedNavigation /> } */}
-            <LogginedNavigation />
+            {/* <LogginedNavigation /> */}
             <NotLogginedNavigation />
           </div>
         </div>

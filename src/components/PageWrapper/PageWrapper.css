@@ -1,3 +1,7 @@
+.pageWrapper {
+  flex: 1 1 auto;
+}
+
 .pageWrapper__container {
   padding: 20px 20px 20px 20px;
   max-width: 1280px;
@@ -54,5 +58,13 @@
 @media screen and (max-width: 768px) {
   .adverts-block {
     display: none;
+  }
+
+  .pageWrapper__content {
+    gap: 0;
+  }
+
+  .pageWrapper__container {
+    padding: 10px;
   }
 }

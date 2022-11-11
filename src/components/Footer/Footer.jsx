@@ -9,10 +9,15 @@ import iconInstagram from '../../images/icon-instagram.png';
 import iconFacebook from '../../images/icon-facebook.png';
 
 function Footer() {
+  const handleShowMenu = (e) => {
+    e.target.nextElementSibling.classList.toggle('_active');
+  }
+
   return (
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__content">
+
           <div className="footer__logo-block">
             <img src={footerLogo} alt="Логотип" className="footer__logo-block-image" />
             <p className="footer__logo-block-text">Интернет олимпиады</p>
@@ -22,9 +27,10 @@ function Footer() {
               <img src={iconInstagram} alt="Иконка" />
             </div>
           </div>
+
           <div className="footer__navlinks">
             <div className="footer__navlinks-item">
-              <p className="footer__title">О компании</p>
+              <p className="footer__title" onClick={(e) => handleShowMenu(e)}>О компании</p>
               <ul className="footer__list-links">
                 <li className="footer__list-links-item"><Link to="/" className="footer__list-links-item-link">О нас</Link></li>
                 <li className="footer__list-links-item"><Link to="/" className="footer__list-links-item-link">Контакты</Link></li>
@@ -33,7 +39,7 @@ function Footer() {
               </ul>
             </div>
             <div className="footer__navlinks-item">
-              <p className="footer__title">Олимпиады</p>
+              <p className="footer__title" onClick={(e) => handleShowMenu(e)}>Олимпиады</p>
               <ul className="footer__list-links">
                 <li className="footer__list-links-item"><Link to="/" className="footer__list-links-item-link">Все олимпиады</Link></li>
                 <li className="footer__list-links-item"><Link to="/" className="footer__list-links-item-link">Призы</Link></li>
@@ -42,7 +48,7 @@ function Footer() {
               </ul>
             </div>
             <div className="footer__navlinks-item">
-              <p className="footer__title">Служба поддержки</p>
+              <p className="footer__title" onClick={(e) => handleShowMenu(e)}>Служба поддержки</p>
               <ul className="footer__list-links">
                 <li className="footer__list-links-item">8(727)2346789</li>
                 <li className="footer__list-links-item">info@mail.ru</li>
@@ -50,6 +56,7 @@ function Footer() {
               </ul>
             </div>
           </div>
+
         </div>
       </div>
     </footer>
