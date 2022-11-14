@@ -2,104 +2,13 @@
   min-width: 70%;
 }
 
-.pesonal-account {
+.pesonal-account-banks {
   display: flex;
   min-height: 550px;
   margin: 0 0 10px 0;
 }
 
-.pesonal-account__info {
-  margin: 0 20px 0 0;
-}
-
-.pesonal-account__info-photo-card-block {
-  background-color: #FFFFFF;
-  border-radius: 15px;
-  width: 215px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px 12px;
-  margin: 0 0 20px 0;
-}
-
-.pesonal-account__info-nav-links-block {
-  background-color: #FFFFFF;
-  border-radius: 15px;
-  width: 215px;
-  display: flex;
-  flex-direction: column;
-  padding: 12px 12px;
-}
-
-.pesonal-account__info-photo-card-student-name {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 15px 0 0 0;
-}
-
-.pesonal-account__info-photo-card-student-info {
-  font-size: 14px;
-  line-height: 22px;
-  color: #9C9C9C;
-}
-
-.pesonal-account__info-photo-card-block-image {
-  width: 150px;
-  flex: 0 0 150px;
-}
-
-.pesonal-account__info-photo-card-block-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.dropdown-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 0 12px 0;
-}
-
-.dropdown-menu_padding-top {
-  padding: 12px 0 0 0;
-}
-
-.dropdown-menu__text {
-  font-size: 14px;
-  line-height: 22px;
-  color: #9C9C9C;
-}
-
-.dropdown-menu__arrow {
-  background: url('../../images/dropdown-menu-icon.svg') no-repeat;
-  width: 18px;
-  height: 9px;
-  cursor: pointer;
-}
-
-.pesonal-account__info-nav-links-list.subMenu-open{
-  display: none;
-}
-
-.pesonal-account__info-nav-links-list-item {
-  font-size: 14px;
-  line-height: 22px;
-  margin: 0 0 10px 0;
-}
-
-.pesonal-account__info-nav-links-list-item:last-child {
-  margin: 0;
-}
-
-.pesonal-account__info-nav-links-list-item-link {
-  color: #000;
-}
-
-.pesonal-account__payments {
+.pesonal-account-banks__payments {
   background-color: #FFFFFF;
   border-radius: 20px;
   width: 100%;
@@ -109,20 +18,20 @@
   padding: 15px 20px;
 }
 
-.pesonal-account__payments-info-title {
+.pesonal-account-banks__payments-info-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   margin: 0 0 15px 0;
 }
 
-.pesonal-account__payments-info-user {
+.pesonal-account-banks__payments-info-user {
   display: flex;
   gap: 50px;
   margin: 0 0 15px 0;
 }
 
-.pesonal-account__payments-info-user-text {
+.pesonal-account-banks__payments-info-user-text {
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
@@ -130,7 +39,7 @@
   margin: 0 0 10px 0;
 }
 
-.pesonal-account__payments-info-user-text:last-child {
+.pesonal-account-banks__payments-info-user-text:last-child {
   margin: 0;
 }
 
@@ -138,49 +47,49 @@
   color: #000;
 }
 
-.pesonal-account__payments-info-text {
+.pesonal-account-banks__payments-info-text {
   font-size: 14px;
   line-height: 16px;
   margin: 0 0 10px 0;
 }
 
-.pesonal-account__payments-info-text:last-child {
+.pesonal-account-banks__payments-info-text:last-child {
   margin: 0;
 }
 
-.pesonal-account__payments-info-payment-choice {
+.pesonal-account-banks__payments-info-payment-choice {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin: 40px 0 10px 0;
 }
 
-.pesonal-account__payments-bank {
+.pesonal-account-banks__payments-bank {
   margin: 0 0 30px 0;
 }
 
-.pesonal-account__payments-bank:last-child {
+.pesonal-account-banks__payments-bank:last-child {
   margin: 0;
 }
 
-.pesonal-account__payments-bank-payment {
+.pesonal-account-banks__payments-bank-payment {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   margin: 0 0 10px 0;
 }
 
-.pesonal-account__payments-bank-text {
+.pesonal-account-banks__payments-bank-text {
   font-size: 14px;
   line-height: 22px;
   margin: 0 0 20px 0;
 }
 
-.pesonal-account__payments-bank-text:last-of-type {
+.pesonal-account-banks__payments-bank-text:last-of-type {
   margin: 0;
 }
 
-.pesonal-account__payments-bank-link {
+.pesonal-account-banks__payments-bank-link {
   font-size: 16px;
   line-height: 20px;
   color: #FFF;
@@ -192,6 +101,6 @@
   margin: 20px auto 0;
 }
 
-.pesonal-account__payments-bank-link:hover {
+.pesonal-account-banks__payments-bank-link:hover {
   opacity: .5;
 }

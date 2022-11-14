@@ -40,8 +40,8 @@
 }
 
 .header__bottom-title {
-  font-weight: 800;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 25px;
   color: #FFFFFF;
   margin: 0 70px 0 0;
@@ -100,7 +100,7 @@
     width: 37px;
     height: 27px;
     cursor: pointer;
-    margin: 0 25px 0 0;
+    margin: 0 10px 0 0;
     z-index: 56;
   }
 
@@ -175,11 +175,12 @@
   }
 
   .header__bottom-title {
-    margin: 0 5px 0 0;
+    margin: 0 10px 0 0;
   }
 
   .search-form {
     padding: 0 5px 0 5px;
+    width: 155px;
   }
 
   .search-form__button {
@@ -190,8 +191,43 @@
   }
 
   .search-form__input {
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 16px;
     margin: 0 3px 0 0;
+  }
+}
+
+/* Стили для текста логотипа (Пока нет картинки логотипа): */
+
+@media screen and (max-width: 407px) {
+  .header__bottom-title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .search-form {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header__bottom-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .search-form {
+    width: 115px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .header__bottom-title {
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .search-form {
+    width: 100px;
   }
 }

@@ -124,3 +124,50 @@
   top: 10px;
   right: 10px;
 }
+
+@media screen and (max-width: 1050px) {
+  .login {
+    width: 100%;
+  }
+
+  .login__container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .login__container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .login__title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .login__text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .login__link {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .login__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .login__link-text {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 0 8px;
+  }
+}

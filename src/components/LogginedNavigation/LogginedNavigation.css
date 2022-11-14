@@ -23,13 +23,13 @@
 
 .loggined-user-profile-image {
   display: block;
-  background: url('../../images/icon-loggined-user.png') 0 0/48px 48px no-repeat;
+  background: url('../../images/icon-loggined-user.svg') 0 0/48px 48px no-repeat;
   width: 48px;
   height: 48px;
   position: relative;
   cursor: pointer;
   /* Позже это убрать: */
-  margin: 0 25px 0 0;
+  margin: 0 15px 0 0;
 }
 
 .loggined-user-profile-image:hover {

@@ -44,14 +44,14 @@ function Header() {
               <span></span>
             </div>
 
-            <Link to="/" className="header__bottom-title">HiTest</Link>
+            <Link to="/" className="header__bottom-title">Hi Test!</Link>
             <form name="search" className="search-form">
               <input type="text" className="search-form__input" placeholder="Поиск" />
               <button type="submit" className="search-form__button"></button>
             </form>
             {/* В зависимости от того залогинен ли пользователь сделать примерно так: { isUserLoggined() ? <LogginedNavigation /> : <NotLogginedNavigation /> } */}
             <LogginedNavigation />
-            <NotLogginedNavigation />
+            {/* <NotLogginedNavigation /> */}
           </div>
         </div>
       </div>

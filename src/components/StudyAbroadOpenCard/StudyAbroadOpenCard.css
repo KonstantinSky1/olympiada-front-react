@@ -193,3 +193,35 @@
   object-fit: cover;
   object-position: 50% 50%;
 }
+
+@media screen and (max-width: 1200px) {
+  .studyUniversityFreeConsult__image {
+    display: none;
+  }
+
+  .studyUniversityFreeConsult__form {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .studyUniversityCardInfo__image-block {
+    flex-direction: column;
+  }
+
+  .studyUniversityCardInfo__image {
+    margin: 0 0 35px 0;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .studyUniversityFreeConsult__inputs-block {
+    grid-template-areas: 
+      "name"
+      "email"
+      "tel"
+      "country";
+  }
+}
