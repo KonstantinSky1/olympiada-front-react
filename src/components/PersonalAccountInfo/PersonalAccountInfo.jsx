@@ -10,15 +10,13 @@ import pic5 from "../../images/news1.png";
 import pic6 from "../../images/news2.png";
 
 import PersonalAccountUser from '../PersonalAccountUser/PersonalAccountUser';
-import MediaQueriesForPersonalAccountUser from './MediaQueriesForPersonalAccountUser.css';
 
 function PersonalAccountInfo() {
   return (
     <section className="pesonal-account-info">
 
       <div className="pesonal-account">
-        <PersonalAccountUser style={MediaQueriesForPersonalAccountUser}/>
-
+        <PersonalAccountUser />
         <div className="pesonal-account__full-info">
           <div className="dropdown-menu dropdown-menu_padding-top">
             <span className="dropdown-menu__arrow arrow-full-info" onClick={() => {
@@ -30,9 +28,6 @@ function PersonalAccountInfo() {
               <h4 className="pesonal-account__full-info-content-header-title">Общая информация</h4>
               <a href="#" className="pesonal-account__full-info-content-header-link">Редактировать</a>
             </div>
-
-
-
             <div className="pesonal-account__full-info-content-body">
               <p className="pesonal-account__full-info-content-body-itemOne-text pesonal-account__full-info-one">Учебное заведение:</p>
               <p className="pesonal-account__full-info-content-body-itemTwo-text pesonal-account__full-info-two">Ельтайская средняя школа</p>
@@ -47,10 +42,6 @@ function PersonalAccountInfo() {
               <p className="pesonal-account__full-info-content-body-itemOne-text pesonal-account__full-info-eleven">Имя пользователя:</p>
               <p className="pesonal-account__full-info-content-body-itemTwo-text pesonal-account__full-info-twelve">karimova.d@gmail.com</p>
             </div>
-
-
-
-
           </div>
           <span className="pesonal-account__full-info-content-line"></span>
           <div className="pesonal-account__full-info-subscriptions">

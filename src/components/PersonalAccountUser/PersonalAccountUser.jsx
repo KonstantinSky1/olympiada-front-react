@@ -5,9 +5,9 @@ import './PersonalAccountUser.css';
 
 import pic1 from '../../images/student-photo.png';
 
-function PersonalAccountUser({style}) {
+function PersonalAccountUser() {
   return (
-    <div className="pesonal-account__info" style={style}>
+    <div className="pesonal-account__info">
       <div className="pesonal-account__info-photo-card-block">
         <div className="pesonal-account__info-photo-card-block-image">
           <img src={pic1} alt="Фотография" />

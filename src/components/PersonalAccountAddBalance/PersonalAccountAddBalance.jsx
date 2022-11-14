@@ -16,18 +16,20 @@ function PersonalAccountAddBalance() {
         <div className="pesonal-account-banks__payments">
           <div className="pesonal-account-banks__payments-info">
             <h4 className="pesonal-account-banks__payments-info-title">Пополнение баланса</h4>
+
+
+
             <div className="pesonal-account-banks__payments-info-user">
-              <div className="pesonal-account-banks__payments-info-user-itemOne">
-                <p className="pesonal-account-banks__payments-info-user-text">Номер счета:</p>
-                <p className="pesonal-account-banks__payments-info-user-text">Имя пользователя:</p>
-                <p className="pesonal-account-banks__payments-info-user-text">Текущий баланс:</p>
-              </div>
-              <div className="pesonal-account-banks__payments-info-user-itemOne">
-                <p className="pesonal-account-banks__payments-info-user-text font-color-dark">#2345678768</p>
-                <p className="pesonal-account-banks__payments-info-user-text font-color-dark">karimova.d@gmail.com</p>
-                <p className="pesonal-account-banks__payments-info-user-text font-color-dark">1200 тенге</p>
-              </div>
+              <p className="pesonal-account-banks__payments-info-user-text pesonal-account-banks-one">Номер счета:</p>
+              <p className="pesonal-account-banks__payments-info-user-text font-color-dark pesonal-account-banks-two">#2345678768</p>
+              <p className="pesonal-account-banks__payments-info-user-text pesonal-account-banks-three">Имя пользователя:</p>
+              <p className="pesonal-account-banks__payments-info-user-text font-color-dark pesonal-account-banks-four">karimova.d@gmail.com</p>
+              <p className="pesonal-account-banks__payments-info-user-text pesonal-account-banks-five">Текущий баланс:</p>
+              <p className="pesonal-account-banks__payments-info-user-text font-color-dark pesonal-account-banks-six">1200 тенге</p>
             </div>
+
+
+
             <p className="pesonal-account-banks__payments-info-text">Стоимость участия в одной олимпиаде составляет:</p>
             <p className="pesonal-account-banks__payments-info-text">- для школьников 2500 тенге;</p>
             <p className="pesonal-account-banks__payments-info-text">- для учителей 2500 тенге.</p>

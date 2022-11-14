@@ -90,3 +90,24 @@
   border-radius: 4px;
   height: 32px;
 }
+
+.pesonal-account-bank-name__bank-info-image-kapsi {
+  max-width: 207px;
+}
+
+@media screen and (max-width: 1050px) {
+  .pesonal-account-bank-name {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .pesonal-account-bank-name__bank-info {
+    flex-direction: column;
+  }
+
+  .pesonal-account-bank-name__bank-payment-input-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

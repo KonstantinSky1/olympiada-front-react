@@ -26,9 +26,36 @@
 }
 
 .pesonal-account-banks__payments-info-user {
-  display: flex;
-  gap: 50px;
   margin: 0 0 15px 0;
+  display: grid;
+  grid-template-areas: 
+    "pesonal-account-banks-one pesonal-account-banks-two"
+    "pesonal-account-banks-three pesonal-account-banks-four"
+    "pesonal-account-banks-five pesonal-account-banks-six";
+}
+
+.pesonal-account-banks-one {
+  grid-area: pesonal-account-banks-one;
+}
+
+.pesonal-account-banks-two {
+  grid-area: pesonal-account-banks-two;
+}
+
+.pesonal-account-banks-three {
+  grid-area: pesonal-account-banks-three;
+}
+
+.pesonal-account-banks-four {
+  grid-area: pesonal-account-banks-four;
+}
+
+.pesonal-account-banks-five {
+  grid-area: pesonal-account-banks-five;
+}
+
+.pesonal-account-banks-six {
+  grid-area: pesonal-account-banks-six;
 }
 
 .pesonal-account-banks__payments-info-user-text {
@@ -37,10 +64,6 @@
   line-height: 16px;
   color: #9C9C9C;
   margin: 0 0 10px 0;
-}
-
-.pesonal-account-banks__payments-info-user-text:last-child {
-  margin: 0;
 }
 
 .font-color-dark {
@@ -103,4 +126,17 @@
 
 .pesonal-account-banks__payments-bank-link:hover {
   opacity: .5;
+}
+
+@media screen and (max-width: 1050px) {
+  .pesonal-account-banks {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .pesonal-account-banks__payments-info-user {
+    display: flex;
+    flex-direction: column;
+  }
 }

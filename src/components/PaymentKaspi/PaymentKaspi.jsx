@@ -14,7 +14,7 @@ function PaymentKaspi() {
         <div className="pesonal-account-bank-name__bank-payment">
           <h4 className="pesonal-account-bank-name__bank-title">Оплата через Kaspi банк</h4>
           <div className="pesonal-account-bank-name__bank-info">
-            <img src={kaspiLogo} alt="Картинка" />
+            <img src={kaspiLogo} alt="Картинка" className="pesonal-account-bank-name__bank-info-image-kapsi" />
             <div>
               <p className="pesonal-account-bank-name__bank-info-text">Стоимость участия в одной олимпиаде составляет:</p>
               <p className="pesonal-account-bank-name__bank-info-text">- для школьников 350 тенге;</p>
