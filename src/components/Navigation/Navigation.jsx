@@ -15,12 +15,8 @@ function Navigation() {
     <div className={menuActive ? 'navigation-block _active' : 'navigation-block'} onClick={() => {setMenuActive(false); document.body.classList.remove('_lock');}}>
       <nav className='navigation'>
         <ul className="navigation__list">
-          <li className="navigation__list-item">
-            <NavLink className="navigation__list-item-NavLink" to="/" style={({isActive}) => isActive ? {fontWeight: 700} : undefined} end onClick={() => {setMenuActive(false); document.body.classList.remove('_lock');}}>Главная</NavLink>
-            <ul>
-              <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/news" style={({isActive}) => isActive ? {fontWeight: 700} : undefined} onClick={() => {setMenuActive(false); document.body.classList.remove('_lock');}}>Новости</NavLink></li>
-            </ul>
-          </li>
+          <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/" style={({isActive}) => isActive ? {fontWeight: 700} : undefined} end onClick={() => {setMenuActive(false); document.body.classList.remove('_lock');}}>Главная</NavLink></li>
+          <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/news" style={({isActive}) => isActive ? {fontWeight: 700} : undefined} onClick={() => {setMenuActive(false); document.body.classList.remove('_lock');}}>Новости</NavLink></li>
           <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/opentoplay" style={({isActive}) => isActive ? {fontWeight: 700} : undefined} onClick={() => {setMenuActive(false); document.body.classList.remove('_lock');}}>Олимпиада</NavLink></li>
           <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/courses" style={({isActive}) => isActive ? {fontWeight: 700} : undefined} onClick={() => {setMenuActive(false); document.body.classList.remove('_lock');}}>Курсы</NavLink></li>
           <li className="navigation__list-item"><NavLink className="navigation__list-item-NavLink" to="/tutors" style={({isActive}) => isActive ? {fontWeight: 700} : undefined} onClick={() => {setMenuActive(false); document.body.classList.remove('_lock');}}>Репетиторы</NavLink></li>

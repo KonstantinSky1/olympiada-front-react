@@ -10,7 +10,6 @@ function Root() {
     <>
       <Header />
       <PageWrapper />
-      {/* <Outlet /> */}
       <Footer />
     </>
   );

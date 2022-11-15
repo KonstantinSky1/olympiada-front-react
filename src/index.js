@@ -4,13 +4,16 @@ import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 import { BurgerMenuContextProvider } from './contexts/BurgerMenuContext';
+import { JsonPlaceholderContextProvider } from './contexts/JsonPlaceholderContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-      <BurgerMenuContextProvider>
-        <App />
-      </BurgerMenuContextProvider>
+      <JsonPlaceholderContextProvider>
+        <BurgerMenuContextProvider>
+          <App />
+        </BurgerMenuContextProvider>
+      </JsonPlaceholderContextProvider>
     </React.StrictMode>
 );
 

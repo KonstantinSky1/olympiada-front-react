@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css';
 
-// import PageWrapper from '../PageWrapper/PageWrapper';
 import Register from '../Register/Register';
 import Login from '../Login/Login';
 import Root from '../Root/Root';
@@ -36,11 +35,19 @@ function App() {
       path: '/',
       element: <Root />,
       children: [
-        // newsitemopen - временное решение!!!!
+        // Тест:
         {
-          path: "newsitemopen",
+          path: "news/:id",
           element: <NewsItemOpen />,
+          loader: async ({ params }) => {
+            return fetch(`https://jsonplaceholder.typicode.com/posts/${params.id}`);
+          },
         },
+        // newsitemopen - временное решение!!!!
+        // {
+        //   path: "newsitemopen",
+        //   element: <NewsItemOpen />,
+        // },
         // ===================================
         // olympiadstart - временное решение!!!!
         {
