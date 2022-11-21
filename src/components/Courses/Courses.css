@@ -21,6 +21,7 @@
   grid-template-columns: repeat(auto-fill, 200px);
   column-gap: 35px;
   row-gap: 20px;
+  justify-content: center;
 }
 
 .courses-popular-subjects__list-link {
@@ -76,6 +77,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 195px);
   gap: 40px;
+  justify-content: center;
 }
 
 .courses-all {

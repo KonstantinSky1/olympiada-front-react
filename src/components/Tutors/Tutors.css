@@ -96,6 +96,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 220px);
   gap: 15px;
+  justify-content: center;
 }
 
 .tutors-subjects__list-item {
@@ -148,6 +149,7 @@
   grid-template-columns: repeat(auto-fill, 140px);
   column-gap: 50px;
   row-gap: 30px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 990px) {

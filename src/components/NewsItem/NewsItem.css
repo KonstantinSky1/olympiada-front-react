@@ -69,12 +69,24 @@
   color: #9C9C9C;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .all-news__list-itemBlock {
     flex-direction: column;
   }
 
   .all-news__list-item-textBlock {
-    margin: 0 0 20px 0;
+    margin: 20px 0 0 0;
+    order: 2;
+  }
+
+  .all-news__list-item-imageBlock {
+    order: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .all-news__list-item::before {
+    height: 0;
+    width: 0;
   }
 }

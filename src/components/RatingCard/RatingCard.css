@@ -68,6 +68,8 @@
   .olympiad-rating__list-item {
     flex-direction: column;
     align-items: flex-start;
+
+    width: 190px;
   }
 
   .olympiad-rating__width15 {

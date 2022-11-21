@@ -33,12 +33,18 @@
     overflow: auto;
     border-radius: 0;
     padding-top: 120px;
-    /* backdrop-filter: blur(2px); */
     background-color: #fff;
     z-index: 55
   }
 
   .navigation-block._active {
     left: 0;
+  }
+  .navigation__list-item-NavLink {
+    font-size: 18px;
+  }
+  
+  .navigation {
+    padding-top: 0;
   }
 }

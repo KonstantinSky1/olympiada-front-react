@@ -86,6 +86,7 @@
   border-radius: 30px;
   padding: 20px;
   align-self: flex-start;
+  margin: 0 auto;
 }
 
 .openCoursesCard-card__image {

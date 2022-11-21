@@ -18,4 +18,5 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 240px);
   gap: 20px;
+  justify-content: center;
 }

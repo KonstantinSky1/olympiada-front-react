@@ -92,6 +92,7 @@
   grid-template-columns: repeat(auto-fill, 250px);
   column-gap: 80px;
   row-gap: 40px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 990px) {
